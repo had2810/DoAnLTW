@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+E0ln2qmxFHDfLWdaxt0Kn+oKH8zlxUiM/8IvMNwPKA=",
+  "Hash": "AIjw//rBNkF355Blu6NZiUCIVX7EjJE/uGNSAt7pMCE=",
   "Source": "DoAnLTW",
   "BasePath": "_content/DoAnLTW",
   "Mode": "Default",
@@ -57,6 +57,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DoAnLTW.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "DoAnLTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
+      "BasePath": "_content/DoAnLTW",
+      "RelativePath": "css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aa2pylk127",
+      "Integrity": "LtLtdBSRaxPAuYjrRqBAohFDSDEcwUAsXpSK5qvbwHE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "DoAnLTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
+      "BasePath": "_content/DoAnLTW",
+      "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4d3ccf68ki",
+      "Integrity": "+Nu7W/GLZp3LNm1FNxSDyZmP/W+A00+as6dfrlfKOxU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
       "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap-grid.css",
@@ -141,48 +183,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.css",
-      "SourceId": "DoAnLTW",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
-      "BasePath": "_content/DoAnLTW",
-      "RelativePath": "css/bootstrap#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "aa2pylk127",
-      "Integrity": "LtLtdBSRaxPAuYjrRqBAohFDSDEcwUAsXpSK5qvbwHE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.min.css",
-      "SourceId": "DoAnLTW",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
-      "BasePath": "_content/DoAnLTW",
-      "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "4d3ccf68ki",
-      "Integrity": "+Nu7W/GLZp3LNm1FNxSDyZmP/W+A00+as6dfrlfKOxU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
       "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\style.css",
@@ -374,27 +374,6 @@
       "OriginalItemSpec": "wwwroot\\img\\giamGia2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\img\\icon_github.svg",
-      "SourceId": "DoAnLTW",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
-      "BasePath": "_content/DoAnLTW",
-      "RelativePath": "img/icon_github#[.{fingerprint}]?.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "aepyk42i53",
-      "Integrity": "EnlDkMzn0Ggv/Hg8eF5CgjBWhEMbMLKe11wiTaJANbQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\icon_github.svg"
-    },
-    {
       "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\img\\icon_google.ico",
       "SourceId": "DoAnLTW",
       "SourceType": "Discovered",
@@ -414,6 +393,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icon_google.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\img\\icon_github.svg",
+      "SourceId": "DoAnLTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
+      "BasePath": "_content/DoAnLTW",
+      "RelativePath": "img/icon_github#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aepyk42i53",
+      "Integrity": "EnlDkMzn0Ggv/Hg8eF5CgjBWhEMbMLKe11wiTaJANbQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icon_github.svg"
     },
     {
       "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\img\\logo1.png",
@@ -1949,27 +1949,6 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
-      "SourceId": "DoAnLTW",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
-      "BasePath": "_content/DoAnLTW",
-      "RelativePath": "scss/bootstrap/scss/_transitions#[.{fingerprint}]?.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "zik31cmpaz",
-      "Integrity": "q3uxEkhCxKwA25BAm1CrJbqwyi97yPfgFz87Y47izls=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_transitions.scss"
-    },
-    {
       "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
       "SourceId": "DoAnLTW",
       "SourceType": "Discovered",
@@ -1989,6 +1968,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "SourceId": "DoAnLTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
+      "BasePath": "_content/DoAnLTW",
+      "RelativePath": "scss/bootstrap/scss/_transitions#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zik31cmpaz",
+      "Integrity": "q3uxEkhCxKwA25BAm1CrJbqwyi97yPfgFz87Y47izls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
       "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
@@ -2033,6 +2033,27 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
+      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "SourceId": "DoAnLTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
+      "BasePath": "_content/DoAnLTW",
+      "RelativePath": "scss/bootstrap/scss/bootstrap#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8mnu9xzb06",
+      "Integrity": "EJBvO+OZYFdsZH+Pyp65hMAijI4lnRBHT4PssPPJKmA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
       "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "SourceId": "DoAnLTW",
       "SourceType": "Discovered",
@@ -2073,27 +2094,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
-    },
-    {
-      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
-      "SourceId": "DoAnLTW",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
-      "BasePath": "_content/DoAnLTW",
-      "RelativePath": "scss/bootstrap/scss/bootstrap#[.{fingerprint}]?.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "8mnu9xzb06",
-      "Integrity": "EJBvO+OZYFdsZH+Pyp65hMAijI4lnRBHT4PssPPJKmA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
       "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
@@ -2369,27 +2369,6 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
-      "SourceId": "DoAnLTW",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
-      "BasePath": "_content/DoAnLTW",
-      "RelativePath": "scss/bootstrap/scss/mixins/_grid-framework#[.{fingerprint}]?.scss",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "2l83e1l1lh",
-      "Integrity": "yq+YphC/+ImDZRv+VG0BpGjYDqr94IcutIrFYe3YmFA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
-    },
-    {
       "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "SourceId": "DoAnLTW",
       "SourceType": "Discovered",
@@ -2409,6 +2388,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "SourceId": "DoAnLTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\",
+      "BasePath": "_content/DoAnLTW",
+      "RelativePath": "scss/bootstrap/scss/mixins/_grid-framework#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2l83e1l1lh",
+      "Integrity": "yq+YphC/+ImDZRv+VG0BpGjYDqr94IcutIrFYe3YmFA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
     },
     {
       "Identity": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
@@ -3169,6 +3169,170 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/bootstrap.aa2pylk127.css",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LtLtdBSRaxPAuYjrRqBAohFDSDEcwUAsXpSK5qvbwHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 02:22:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aa2pylk127"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LtLtdBSRaxPAuYjrRqBAohFDSDEcwUAsXpSK5qvbwHE="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.css",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LtLtdBSRaxPAuYjrRqBAohFDSDEcwUAsXpSK5qvbwHE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 02:22:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LtLtdBSRaxPAuYjrRqBAohFDSDEcwUAsXpSK5qvbwHE="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.4d3ccf68ki.css",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Nu7W/GLZp3LNm1FNxSDyZmP/W+A00+as6dfrlfKOxU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 02:22:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4d3ccf68ki"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Nu7W/GLZp3LNm1FNxSDyZmP/W+A00+as6dfrlfKOxU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+Nu7W/GLZp3LNm1FNxSDyZmP/W+A00+as6dfrlfKOxU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 02:22:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+Nu7W/GLZp3LNm1FNxSDyZmP/W+A00+as6dfrlfKOxU="
+        }
+      ]
+    },
+    {
       "Route": "css/bootstrap-grid.css",
       "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap-grid.css",
       "Selectors": [],
@@ -3493,170 +3657,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-Gpa2b85hsqIU0CHbPgqp0DC52zlE8kpy2XHrEj5OFmQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/bootstrap.aa2pylk127.css",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "188634"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LtLtdBSRaxPAuYjrRqBAohFDSDEcwUAsXpSK5qvbwHE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 02:22:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "aa2pylk127"
-        },
-        {
-          "Name": "label",
-          "Value": "css/bootstrap.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-LtLtdBSRaxPAuYjrRqBAohFDSDEcwUAsXpSK5qvbwHE="
-        }
-      ]
-    },
-    {
-      "Route": "css/bootstrap.css",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "188634"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LtLtdBSRaxPAuYjrRqBAohFDSDEcwUAsXpSK5qvbwHE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 02:22:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-LtLtdBSRaxPAuYjrRqBAohFDSDEcwUAsXpSK5qvbwHE="
-        }
-      ]
-    },
-    {
-      "Route": "css/bootstrap.min.4d3ccf68ki.css",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "145904"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+Nu7W/GLZp3LNm1FNxSDyZmP/W+A00+as6dfrlfKOxU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 02:22:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4d3ccf68ki"
-        },
-        {
-          "Name": "label",
-          "Value": "css/bootstrap.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+Nu7W/GLZp3LNm1FNxSDyZmP/W+A00+as6dfrlfKOxU="
-        }
-      ]
-    },
-    {
-      "Route": "css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "145904"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+Nu7W/GLZp3LNm1FNxSDyZmP/W+A00+as6dfrlfKOxU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 02:22:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+Nu7W/GLZp3LNm1FNxSDyZmP/W+A00+as6dfrlfKOxU="
         }
       ]
     },
@@ -4563,88 +4563,6 @@
       ]
     },
     {
-      "Route": "img/icon_github.aepyk42i53.svg",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\img\\icon_github.svg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "968"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EnlDkMzn0Ggv/Hg8eF5CgjBWhEMbMLKe11wiTaJANbQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 03:22:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "aepyk42i53"
-        },
-        {
-          "Name": "label",
-          "Value": "img/icon_github.svg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EnlDkMzn0Ggv/Hg8eF5CgjBWhEMbMLKe11wiTaJANbQ="
-        }
-      ]
-    },
-    {
-      "Route": "img/icon_github.svg",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\img\\icon_github.svg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "968"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EnlDkMzn0Ggv/Hg8eF5CgjBWhEMbMLKe11wiTaJANbQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 03:22:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EnlDkMzn0Ggv/Hg8eF5CgjBWhEMbMLKe11wiTaJANbQ="
-        }
-      ]
-    },
-    {
       "Route": "img/icon_google.ico",
       "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\img\\icon_google.ico",
       "Selectors": [],
@@ -4723,6 +4641,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-baViCIAVljQhPhl/r8od3gJyFTvj5FkIGFM/q40EB3A="
+        }
+      ]
+    },
+    {
+      "Route": "img/icon_github.aepyk42i53.svg",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\img\\icon_github.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EnlDkMzn0Ggv/Hg8eF5CgjBWhEMbMLKe11wiTaJANbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 03:22:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aepyk42i53"
+        },
+        {
+          "Name": "label",
+          "Value": "img/icon_github.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EnlDkMzn0Ggv/Hg8eF5CgjBWhEMbMLKe11wiTaJANbQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/icon_github.svg",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\img\\icon_github.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EnlDkMzn0Ggv/Hg8eF5CgjBWhEMbMLKe11wiTaJANbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 03:22:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EnlDkMzn0Ggv/Hg8eF5CgjBWhEMbMLKe11wiTaJANbQ="
         }
       ]
     },
@@ -10713,88 +10713,6 @@
       ]
     },
     {
-      "Route": "scss/bootstrap/scss/_transitions.scss",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "281"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"q3uxEkhCxKwA25BAm1CrJbqwyi97yPfgFz87Y47izls=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-q3uxEkhCxKwA25BAm1CrJbqwyi97yPfgFz87Y47izls="
-        }
-      ]
-    },
-    {
-      "Route": "scss/bootstrap/scss/_transitions.zik31cmpaz.scss",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "281"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"q3uxEkhCxKwA25BAm1CrJbqwyi97yPfgFz87Y47izls=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zik31cmpaz"
-        },
-        {
-          "Name": "label",
-          "Value": "scss/bootstrap/scss/_transitions.scss"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-q3uxEkhCxKwA25BAm1CrJbqwyi97yPfgFz87Y47izls="
-        }
-      ]
-    },
-    {
       "Route": "scss/bootstrap/scss/_type.5lkmc2she7.scss",
       "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
       "Selectors": [],
@@ -10873,6 +10791,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-ueWK1Pgtk5hQc4KdwqNyHXd/CkLCFSOwmh/kDlEnOUU="
+        }
+      ]
+    },
+    {
+      "Route": "scss/bootstrap/scss/_transitions.scss",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q3uxEkhCxKwA25BAm1CrJbqwyi97yPfgFz87Y47izls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q3uxEkhCxKwA25BAm1CrJbqwyi97yPfgFz87Y47izls="
+        }
+      ]
+    },
+    {
+      "Route": "scss/bootstrap/scss/_transitions.zik31cmpaz.scss",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q3uxEkhCxKwA25BAm1CrJbqwyi97yPfgFz87Y47izls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zik31cmpaz"
+        },
+        {
+          "Name": "label",
+          "Value": "scss/bootstrap/scss/_transitions.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q3uxEkhCxKwA25BAm1CrJbqwyi97yPfgFz87Y47izls="
         }
       ]
     },
@@ -11041,6 +11041,88 @@
       ]
     },
     {
+      "Route": "scss/bootstrap/scss/bootstrap.8mnu9xzb06.scss",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "962"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EJBvO+OZYFdsZH+Pyp65hMAijI4lnRBHT4PssPPJKmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8mnu9xzb06"
+        },
+        {
+          "Name": "label",
+          "Value": "scss/bootstrap/scss/bootstrap.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EJBvO+OZYFdsZH+Pyp65hMAijI4lnRBHT4PssPPJKmA="
+        }
+      ]
+    },
+    {
+      "Route": "scss/bootstrap/scss/bootstrap.scss",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "962"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EJBvO+OZYFdsZH+Pyp65hMAijI4lnRBHT4PssPPJKmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EJBvO+OZYFdsZH+Pyp65hMAijI4lnRBHT4PssPPJKmA="
+        }
+      ]
+    },
+    {
       "Route": "scss/bootstrap/scss/bootstrap-grid.omw3sp8krq.scss",
       "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "Selectors": [],
@@ -11201,88 +11283,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-RSYlTGjGwgRhjTX9+wmTARpUkp5n9nfuUYEsV4NBmhE="
-        }
-      ]
-    },
-    {
-      "Route": "scss/bootstrap/scss/bootstrap.8mnu9xzb06.scss",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "962"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EJBvO+OZYFdsZH+Pyp65hMAijI4lnRBHT4PssPPJKmA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8mnu9xzb06"
-        },
-        {
-          "Name": "label",
-          "Value": "scss/bootstrap/scss/bootstrap.scss"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EJBvO+OZYFdsZH+Pyp65hMAijI4lnRBHT4PssPPJKmA="
-        }
-      ]
-    },
-    {
-      "Route": "scss/bootstrap/scss/bootstrap.scss",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "962"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EJBvO+OZYFdsZH+Pyp65hMAijI4lnRBHT4PssPPJKmA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EJBvO+OZYFdsZH+Pyp65hMAijI4lnRBHT4PssPPJKmA="
         }
       ]
     },
@@ -12353,88 +12353,6 @@
       ]
     },
     {
-      "Route": "scss/bootstrap/scss/mixins/_grid-framework.2l83e1l1lh.scss",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2167"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yq+YphC/+ImDZRv+VG0BpGjYDqr94IcutIrFYe3YmFA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2l83e1l1lh"
-        },
-        {
-          "Name": "label",
-          "Value": "scss/bootstrap/scss/mixins/_grid-framework.scss"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yq+YphC/+ImDZRv+VG0BpGjYDqr94IcutIrFYe3YmFA="
-        }
-      ]
-    },
-    {
-      "Route": "scss/bootstrap/scss/mixins/_grid-framework.scss",
-      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2167"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yq+YphC/+ImDZRv+VG0BpGjYDqr94IcutIrFYe3YmFA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-yq+YphC/+ImDZRv+VG0BpGjYDqr94IcutIrFYe3YmFA="
-        }
-      ]
-    },
-    {
       "Route": "scss/bootstrap/scss/mixins/_grid.1o9w1r4e00.scss",
       "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "Selectors": [],
@@ -12513,6 +12431,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-D1pM7U8FTf6pEXN53sBqQJFX3XVI5qmI9ZrIKqsIdzI="
+        }
+      ]
+    },
+    {
+      "Route": "scss/bootstrap/scss/mixins/_grid-framework.2l83e1l1lh.scss",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2167"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yq+YphC/+ImDZRv+VG0BpGjYDqr94IcutIrFYe3YmFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2l83e1l1lh"
+        },
+        {
+          "Name": "label",
+          "Value": "scss/bootstrap/scss/mixins/_grid-framework.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yq+YphC/+ImDZRv+VG0BpGjYDqr94IcutIrFYe3YmFA="
+        }
+      ]
+    },
+    {
+      "Route": "scss/bootstrap/scss/mixins/_grid-framework.scss",
+      "AssetFile": "C:\\Users\\Dat\\DoAnLTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2167"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yq+YphC/+ImDZRv+VG0BpGjYDqr94IcutIrFYe3YmFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 02:22:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yq+YphC/+ImDZRv+VG0BpGjYDqr94IcutIrFYe3YmFA="
         }
       ]
     },

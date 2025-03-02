@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
+@inject IHttpContextAccessor HttpContextAccessor
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -6,7 +9,9 @@
     <title>@ViewBag.Title</title>
     <meta charset="utf-8">
 
-  
+    @{
+        var isAuthenticated = HttpContextAccessor.HttpContext.User.Identity.IsAuthenticated;
+    }
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
