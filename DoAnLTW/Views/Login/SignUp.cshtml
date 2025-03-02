@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Sign Up";
+}
+<h2 class="text-center">Đăng ký</h2>
+<div class="container mt-4">
+    <form method="post" action="/Account/SignUp" class="card p-4 shadow">
+        <div class="mb-3">
+            <label class="form-label">Tên đăng nhập</label>
+            <input type="text" name="fullname" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email:</label>
+            <input type="email" name="email" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Mật khẩu</label>
+            <input type="password" name="password" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-success w-100">Đăng ký</button>
+        <div style="align-content:center"><span> Hoặc đăng nhập với </span></div>
+        <div class="d-flex justify-content-between">
+            <a href="/Account/GoogleSignIn" class="btn btn-light d-flex align-items-center w-50 me-2">
+                <img src="~/img/icon_google.ico" width="20" class="me-2" />
+                Google
+            </a>
+            <a class="btn btn-dark d-flex align-items-center w-50">
+                <img src="~/img/icon_github.svg" width="20" class="me-2" />
+                GitHub
+            </a>
+        </div>
+    </form>
+    <div class="text-center mt-3">
+        <a asp-action="SignIn" >Already have an account? Sign In</a>
+    </div>
+</div>

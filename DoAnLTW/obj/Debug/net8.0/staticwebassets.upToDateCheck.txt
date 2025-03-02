@@ -13,6 +13,8 @@ wwwroot\img\cat-3.jpg
 wwwroot\img\cat-4.jpg
 wwwroot\img\giamGia1.jpg
 wwwroot\img\giamGia2.jpg
+wwwroot\img\icon_google.ico
+wwwroot\img\icon_github.svg
 wwwroot\img\logo1.png
 wwwroot\img\logo2.png
 wwwroot\img\logo3.png
@@ -86,8 +88,8 @@ wwwroot\scss\bootstrap\scss\_spinners.scss
 wwwroot\scss\bootstrap\scss\_tables.scss
 wwwroot\scss\bootstrap\scss\_toasts.scss
 wwwroot\scss\bootstrap\scss\_tooltip.scss
-wwwroot\scss\bootstrap\scss\_transitions.scss
 wwwroot\scss\bootstrap\scss\_type.scss
+wwwroot\scss\bootstrap\scss\_transitions.scss
 wwwroot\scss\bootstrap\scss\_utilities.scss
 wwwroot\scss\bootstrap\scss\_variables.scss
 wwwroot\scss\bootstrap\scss\bootstrap.scss
