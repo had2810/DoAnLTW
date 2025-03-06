@@ -1,6 +1,10 @@
 ﻿@using Microsoft.AspNetCore.Authentication
 @using Microsoft.AspNetCore.Authentication.Cookies
+@using Microsoft.AspNetCore.Identity
+
 @inject IHttpContextAccessor HttpContextAccessor
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 <!DOCTYPE html>
 
 <html>
@@ -51,9 +55,19 @@
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">My Account</button>
                             <div class="dropdown-menu dropdown-menu-right">
-                                <a asp-controller="Login" asp-action="SignIn" class="dropdown-item">Sign in</a>
-                                <a asp-controller="Login" asp-action="SignUp" class="dropdown-item">Sign up</a>
-
+                                @if (SignInManager.IsSignedIn(User))
+                                {
+                                    <span class="dropdown-item disabled">Hello, @UserManager.GetUserName(User)!</span>
+                                    <a asp-area="Identity" asp-page="/Account/Manage/Index" class="dropdown-item">Manage Account</a>
+                                    <form method="post" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home")">
+                                        <button type="submit" class="dropdown-item">Logout</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <a asp-area="Identity" asp-page="/Account/Login" class="dropdown-item">Login</a>
+                                    <a asp-area="Identity" asp-page="/Account/Register" class="dropdown-item">Register</a>
+                                }
                             </div>
                         </div>
                         <div class="btn-group mx-2">
@@ -203,5 +217,6 @@
 
     <!-- Template Javascript -->
     <script src="~/js/main.js"></script>
+    @RenderSection("Scripts", required: false)  <!-- Thêm dòng này vào đây -->
 </body>
 </html>
