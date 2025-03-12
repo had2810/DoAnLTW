@@ -30,17 +30,146 @@ namespace DoAnLTW.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Brand")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal?>("DiscountPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrlsJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<double>("Rating")
+                        .HasColumnType("float");
+
+                    b.Property<int>("ReviewCount")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Stock")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
-                    b.ToTable("products");
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Brand = "Acer",
+                            Category = "Laptop",
+                            Description = "Laptop gaming mạnh mẽ với card RTX 3060",
+                            ImageUrl = "/img/product-1.jpg",
+                            ImageUrlsJson = "[\"/img/product-1.jpg\", \"/img/product-1-2.jpg\"]",
+                            Name = "Laptop Gaming Acer",
+                            Price = 1500.99m,
+                            Rating = 4.0,
+                            ReviewCount = 120,
+                            Stock = 10
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Brand = "Apple",
+                            Category = "Smartphone",
+                            Description = "iPhone 13 chính hãng, màu xanh",
+                            ImageUrl = "/img/product-2.jpg",
+                            ImageUrlsJson = "[\"/img/product-2.jpg\", \"/img/product-2-2.jpg\"]",
+                            Name = "Điện thoại iPhone 13",
+                            Price = 899.99m,
+                            Rating = 5.0,
+                            ReviewCount = 300,
+                            Stock = 20
+                        });
+                });
+
+            modelBuilder.Entity("DoAnLTW.Models.ProductVariant", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Color")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Size")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductVariants");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Color = "Black",
+                            Price = 1500.99m,
+                            ProductId = 1,
+                            Size = "15 inch"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Color = "Silver",
+                            Price = 1600.99m,
+                            ProductId = 1,
+                            Size = "17 inch"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Color = "Blue",
+                            Price = 899.99m,
+                            ProductId = 2,
+                            Size = "128GB"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Color = "Red",
+                            Price = 999.99m,
+                            ProductId = 2,
+                            Size = "256GB"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -188,10 +317,12 @@ namespace DoAnLTW.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("ProviderKey")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -228,10 +359,12 @@ namespace DoAnLTW.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -239,6 +372,24 @@ namespace DoAnLTW.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("DoAnLTW.Models.Product", b =>
+                {
+                    b.HasOne("DoAnLTW.Models.Product", null)
+                        .WithMany("RelatedProducts")
+                        .HasForeignKey("ProductId");
+                });
+
+            modelBuilder.Entity("DoAnLTW.Models.ProductVariant", b =>
+                {
+                    b.HasOne("DoAnLTW.Models.Product", "Product")
+                        .WithMany("Variants")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -290,6 +441,13 @@ namespace DoAnLTW.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("DoAnLTW.Models.Product", b =>
+                {
+                    b.Navigation("RelatedProducts");
+
+                    b.Navigation("Variants");
                 });
 #pragma warning restore 612, 618
         }

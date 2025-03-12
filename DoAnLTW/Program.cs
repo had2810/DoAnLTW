@@ -12,13 +12,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
-//identity 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-.AddDefaultTokenProviders()
-.AddDefaultUI() // sửa sau
-.AddEntityFrameworkStores<ApplicationDbContext>();
-builder.Services.AddRazorPages();
+////identity 
+//builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+//.AddDefaultTokenProviders()
+//.AddDefaultUI() // sửa sau
+//.AddEntityFrameworkStores<ApplicationDbContext>();
+//builder.Services.AddRazorPages();
 
+builder.Services.AddDefaultIdentity<IdentityUser>()
+    .AddEntityFrameworkStores<ApplicationDbContext>();
 
 //cấu hình login google account
 builder.Services.AddAuthentication(options =>
