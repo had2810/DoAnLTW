@@ -4,6 +4,7 @@ using DoAnLTW.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DoAnLTW.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250315025135_add_newdata")]
+    partial class add_newdata
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -121,16 +124,10 @@ namespace DoAnLTW.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal?>("DiscountPrice")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.Property<string>("Size")
@@ -150,7 +147,6 @@ namespace DoAnLTW.Migrations
                             Color = "Black",
                             Price = 1500000m,
                             ProductId = 1,
-                            Quantity = 0,
                             Size = "15 inch"
                         },
                         new
@@ -159,7 +155,6 @@ namespace DoAnLTW.Migrations
                             Color = "Silver",
                             Price = 1400000m,
                             ProductId = 1,
-                            Quantity = 0,
                             Size = "17 inch"
                         },
                         new
@@ -168,7 +163,6 @@ namespace DoAnLTW.Migrations
                             Color = "Blue",
                             Price = 1200000m,
                             ProductId = 2,
-                            Quantity = 0,
                             Size = "128GB"
                         },
                         new
@@ -177,7 +171,6 @@ namespace DoAnLTW.Migrations
                             Color = "Red",
                             Price = 1100000m,
                             ProductId = 2,
-                            Quantity = 0,
                             Size = "256GB"
                         });
                 });

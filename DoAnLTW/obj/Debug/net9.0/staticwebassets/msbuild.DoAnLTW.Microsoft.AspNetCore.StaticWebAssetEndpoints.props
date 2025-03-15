@@ -468,6 +468,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v4ay94iume"},{"Name":"integrity","Value":"sha256-z0AyXH9qDJF9yTAwnq5B50hU5orhwZkEgrZ654TSUDg="},{"Name":"label","Value":"_content/DoAnLTW/img/user.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3511"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022z0AyXH9qDJF9yTAwnq5B50hU5orhwZkEgrZ654TSUDg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 08:21:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DoAnLTW/js/cart.j6c7v4mf6c.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j6c7v4mf6c"},{"Name":"integrity","Value":"sha256-a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI="},{"Name":"label","Value":"_content/DoAnLTW/js/cart.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2418"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 07:07:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DoAnLTW/js/cart.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\cart.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2418"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 07:07:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DoAnLTW/js/main.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

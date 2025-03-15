@@ -15,6 +15,8 @@ namespace DoAnLTW.Controllers
             _context = context;
         }
 
+      
+
         // Hiển thị danh sách sản phẩm
         public IActionResult Index(string category = null, string search = null)
         {

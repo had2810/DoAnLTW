@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dm7NvASbuDFkITP79gcQ6l3E6uDgECWKvSO76f3bWNU=",
+  "Hash": "lEjZUggbySywLHdOswNLzqwStR9rSRYkLzyk3pdb7JU=",
   "Source": "DoAnLTW",
   "BasePath": "_content/DoAnLTW",
   "Mode": "Default",
@@ -3104,6 +3104,27 @@
       "OriginalItemSpec": "C:\\Users\\Dat\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+      "Identity": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\obj\\Debug\\net9.0\\compressed\\z92hq6nyes-j6c7v4mf6c.gz",
+      "SourceId": "DoAnLTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DoAnLTW",
+      "RelativePath": "js/cart#[.{fingerprint=j6c7v4mf6c}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\wwwroot\\js\\cart.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "80qg1lwum1",
+      "Integrity": "WINDHciEID3DyCDDUzuW8vOyEqHx19nHn+s3z98n9zY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\wwwroot\\js\\cart.js"
+    },
+    {
       "Identity": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\obj\\Debug\\net9.0\\compressed\\zap00c0tb5-63fj8s7r0e.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -3984,6 +4005,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\user.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\wwwroot\\js\\cart.js",
+      "SourceId": "DoAnLTW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\wwwroot\\",
+      "BasePath": "_content/DoAnLTW",
+      "RelativePath": "js/cart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j6c7v4mf6c",
+      "Integrity": "a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cart.js"
     },
     {
       "Identity": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\wwwroot\\js\\main.js",
@@ -20452,6 +20494,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-z0AyXH9qDJF9yTAwnq5B50hU5orhwZkEgrZ654TSUDg="
+        }
+      ]
+    },
+    {
+      "Route": "js/cart.j6c7v4mf6c.js",
+      "AssetFile": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\obj\\Debug\\net9.0\\compressed\\z92hq6nyes-j6c7v4mf6c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001700680272"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "587"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WINDHciEID3DyCDDUzuW8vOyEqHx19nHn+s3z98n9zY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 07:07:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j6c7v4mf6c"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cart.j6c7v4mf6c.js",
+      "AssetFile": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\wwwroot\\js\\cart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 07:07:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j6c7v4mf6c"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cart.j6c7v4mf6c.js.gz",
+      "AssetFile": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\obj\\Debug\\net9.0\\compressed\\z92hq6nyes-j6c7v4mf6c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WINDHciEID3DyCDDUzuW8vOyEqHx19nHn+s3z98n9zY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 07:07:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j6c7v4mf6c"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cart.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WINDHciEID3DyCDDUzuW8vOyEqHx19nHn+s3z98n9zY="
+        }
+      ]
+    },
+    {
+      "Route": "js/cart.js",
+      "AssetFile": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\obj\\Debug\\net9.0\\compressed\\z92hq6nyes-j6c7v4mf6c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001700680272"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "587"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WINDHciEID3DyCDDUzuW8vOyEqHx19nHn+s3z98n9zY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 07:07:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cart.js",
+      "AssetFile": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\wwwroot\\js\\cart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 07:07:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a2ghy8Nrks9OzSjoTvQlcV2WoTnJW29kjrvjAWI7TxI="
+        }
+      ]
+    },
+    {
+      "Route": "js/cart.js.gz",
+      "AssetFile": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\obj\\Debug\\net9.0\\compressed\\z92hq6nyes-j6c7v4mf6c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WINDHciEID3DyCDDUzuW8vOyEqHx19nHn+s3z98n9zY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 07:07:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WINDHciEID3DyCDDUzuW8vOyEqHx19nHn+s3z98n9zY="
         }
       ]
     },

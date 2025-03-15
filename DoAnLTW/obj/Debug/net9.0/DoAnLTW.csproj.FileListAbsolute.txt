@@ -790,3 +790,4 @@ C:\Users\Dat\source\repos\DoAnLTW\DoAnLTW\obj\Debug\net9.0\refint\DoAnLTW.dll
 C:\Users\Dat\source\repos\DoAnLTW\DoAnLTW\obj\Debug\net9.0\DoAnLTW.pdb
 C:\Users\Dat\source\repos\DoAnLTW\DoAnLTW\obj\Debug\net9.0\DoAnLTW.genruntimeconfig.cache
 C:\Users\Dat\source\repos\DoAnLTW\DoAnLTW\obj\Debug\net9.0\ref\DoAnLTW.dll
+C:\Users\Dat\source\repos\DoAnLTW\DoAnLTW\obj\Debug\net9.0\compressed\z92hq6nyes-j6c7v4mf6c.gz

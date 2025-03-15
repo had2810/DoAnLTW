@@ -157,6 +157,10 @@
       "PackagePath": "staticwebassets\\img\\user.jpg"
     },
     {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\wwwroot\\js\\cart.js",
+      "PackagePath": "staticwebassets\\js\\cart.js"
+    },
+    {
       "Id": "C:\\Users\\Dat\\source\\repos\\DoAnLTW\\DoAnLTW\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },

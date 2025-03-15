@@ -22,6 +22,7 @@ C:\Users\Dat\source\repos\DoAnLTW\DoAnLTW\wwwroot\lib\owlcarousel\owl.carousel.m
 C:\Users\Dat\source\repos\DoAnLTW\DoAnLTW\wwwroot\favicon.ico
 C:\Users\Dat\source\repos\DoAnLTW\DoAnLTW\wwwroot\css\bootstrap-reboot.css
 C:\Users\Dat\source\repos\DoAnLTW\DoAnLTW\wwwroot\mail\contact.js
+C:\Users\Dat\source\repos\DoAnLTW\DoAnLTW\wwwroot\js\cart.js
 C:\Users\Dat\source\repos\DoAnLTW\DoAnLTW\wwwroot\lib\owlcarousel\assets\owl.theme.default.css
 wwwroot\css\bootstrap.css
 wwwroot\css\bootstrap.min.css
@@ -62,6 +63,7 @@ wwwroot\img\product-7.jpg
 wwwroot\img\product-8.jpg
 wwwroot\img\product-9.jpg
 wwwroot\img\user.jpg
+wwwroot\js\cart.js
 wwwroot\js\main.js
 wwwroot\lib\animate\animate.min.css
 wwwroot\lib\easing\easing.js

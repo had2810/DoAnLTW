@@ -52,7 +52,7 @@ namespace DoAnLTW.Models
         {
             Id = 1,
             Name = "Laptop Gaming Acer",
-            Price = 1500.99m,
+            Price = 1500000m,
             Stock = 10,
             Brand = "Acer",
             Category = "Laptop",
@@ -60,13 +60,13 @@ namespace DoAnLTW.Models
             Rating = 4,
             ReviewCount = 120,
             ImageUrl = "/img/product-1.jpg",
-            ImageUrlsJson = "[\"/img/product-1.jpg\", \"/img/product-1-2.jpg\"]"
+            ImageUrlsJson = "[\"/img/product-1.jpg\", \"/img/product-3.jpg\"]"
         },
         new Product
         {
             Id = 2,
             Name = "Điện thoại iPhone 13",
-            Price = 899.99m,
+            Price = 1200000m,
             Stock = 20,
             Brand = "Apple",
             Category = "Smartphone",
@@ -74,7 +74,7 @@ namespace DoAnLTW.Models
             Rating = 5,
             ReviewCount = 300,
             ImageUrl = "/img/product-2.jpg",
-            ImageUrlsJson = "[\"/img/product-2.jpg\", \"/img/product-2-2.jpg\"]"
+            ImageUrlsJson = "[\"/img/product-2.jpg\", \"/img/product-4.jpg\"]"
         }
 
 
@@ -82,10 +82,10 @@ namespace DoAnLTW.Models
     );
             // 🔹 Seed dữ liệu cho ProductVariant
             modelBuilder.Entity<ProductVariant>().HasData(
-                new ProductVariant { Id = 1, ProductId = 1, Size = "15 inch", Color = "Black", Price = 1500.99m },
-                new ProductVariant { Id = 2, ProductId = 1, Size = "17 inch", Color = "Silver", Price = 1600.99m },
-                new ProductVariant { Id = 3, ProductId = 2, Size = "128GB", Color = "Blue", Price = 899.99m },
-                new ProductVariant { Id = 4, ProductId = 2, Size = "256GB", Color = "Red", Price = 999.99m }
+                new ProductVariant { Id = 1, ProductId = 1, Size = "15 inch", Color = "Black", Price = 1500000m },
+                new ProductVariant { Id = 2, ProductId = 1, Size = "17 inch", Color = "Silver", Price = 1400000m },
+                new ProductVariant { Id = 3, ProductId = 2, Size = "128GB", Color = "Blue", Price = 1200000m },
+                new ProductVariant { Id = 4, ProductId = 2, Size = "256GB", Color = "Red", Price = 1100000m }
             );
         }
 

@@ -4,6 +4,7 @@ using DoAnLTW.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DoAnLTW.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250315041220_add_discountprice")]
+    partial class add_discountprice
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -130,9 +133,6 @@ namespace DoAnLTW.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
                     b.Property<string>("Size")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -150,7 +150,6 @@ namespace DoAnLTW.Migrations
                             Color = "Black",
                             Price = 1500000m,
                             ProductId = 1,
-                            Quantity = 0,
                             Size = "15 inch"
                         },
                         new
@@ -159,7 +158,6 @@ namespace DoAnLTW.Migrations
                             Color = "Silver",
                             Price = 1400000m,
                             ProductId = 1,
-                            Quantity = 0,
                             Size = "17 inch"
                         },
                         new
@@ -168,7 +166,6 @@ namespace DoAnLTW.Migrations
                             Color = "Blue",
                             Price = 1200000m,
                             ProductId = 2,
-                            Quantity = 0,
                             Size = "128GB"
                         },
                         new
@@ -177,7 +174,6 @@ namespace DoAnLTW.Migrations
                             Color = "Red",
                             Price = 1100000m,
                             ProductId = 2,
-                            Quantity = 0,
                             Size = "256GB"
                         });
                 });

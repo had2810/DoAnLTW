@@ -8,7 +8,7 @@
     <div class="row">
         <!-- Hình ảnh sản phẩm -->
         <div class="col-md-6">
-            <div id="product-carousel" class="carousel slide" data-ride="carousel">
+            <div id="product-carousel" class="carousel slide custom-carousel" data-ride="carousel">
                 <div class="carousel-inner">
                     @if (Model.ImageUrls != null && Model.ImageUrls.Count > 0)
                     {
@@ -26,22 +26,49 @@
                         </div>
                     }
                 </div>
+
+                <!-- Nút Previous -->
                 <a class="carousel-control-prev" href="#product-carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon"></span>
                     <span class="sr-only">Previous</span>
                 </a>
+
+                <!-- Nút Next -->
                 <a class="carousel-control-next" href="#product-carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
         </div>
 
+        <style>
+            /* Ẩn các nút điều hướng mặc định */
+            .custom-carousel .carousel-control-prev,
+            .custom-carousel .carousel-control-next {
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out;
+            }
+
+            /* Khi hover vào carousel, hiện các nút */
+            .custom-carousel:hover .carousel-control-prev,
+            .custom-carousel:hover .carousel-control-next {
+                opacity: 1;
+            }
+
+            /* Đổi màu icon điều hướng thành đen */
+            .custom-carousel .carousel-control-prev-icon,
+            .custom-carousel .carousel-control-next-icon {
+                filter: invert(100%); /* Đảo màu thành đen */
+            }
+        </style>
+
+
+
         <!-- Thông tin sản phẩm -->
         <div class="col-md-6">
             <h1>@Model.Name</h1>
             <p class="text-muted">Thương hiệu: @Model.Brand</p>
-            <h3 class="text-danger">
+            <h3 class="text-danger" id="product-price">
                 @if (Model.DiscountPrice.HasValue)
                 {
                     <span>@Model.DiscountPrice.Value.ToString("C")</span>
@@ -71,19 +98,101 @@
             <!-- Chọn biến thể sản phẩm -->
             @if (Model.Variants != null && Model.Variants.Count > 0)
             {
-                <h5>Chọn biến thể:</h5>
                 <form>
-                    @foreach (var variant in Model.Variants)
-                    {
-                        <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" class="custom-control-input" id="variant-@variant.Id" name="variant">
-                            <label class="custom-control-label" for="variant-@variant.Id">@variant.Id</label>
-                        </div>
-                    }
+                    <h5>Chọn kích thước:</h5>
+                    <div class="mb-3">
+                        @foreach (var variant in Model.Variants.Select(v => v.Size).Distinct())
+                        {
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="size-@variant" name="size">
+                                <label class="custom-control-label" for="size-@variant">@variant</label>
+                            </div>
+                        }
+                    </div>
+
+                    <h5>Chọn màu sắc:</h5>
+                    <div>
+                        @foreach (var variant in Model.Variants.Select(v => v.Color).Distinct())
+                        {
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="color-@variant" name="color">
+                                <label class="custom-control-label" for="color-@variant">@variant</label>
+                            </div>
+                        }
+                    </div>
                 </form>
             }
 
-            <button class="btn btn-primary mt-3">Thêm vào giỏ hàng</button>
+            <button class="btn btn-primary mt-3" id="addToCartBtn">Thêm vào giỏ hàng</button>
         </div>
     </div>
 </div>
+ 
+
+@* Script cho giá thay đổi theo tưng biến thể khác nhau *@
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Lấy danh sách biến thể từ Razor Model
+        const variants = @Html.Raw(Json.Serialize(Model.Variants));
+
+        // Lấy các radio button
+        const sizeRadios = document.querySelectorAll('input[name="size"]');
+        const colorRadios = document.querySelectorAll('input[name="color"]');
+        const priceElement = document.getElementById("product-price");
+
+        // Hàm cập nhật giá theo biến thể
+        function updatePrice() {
+            // Lấy size và color được chọn
+            let selectedSize = document.querySelector('input[name="size"]:checked')?.id.replace("size-", "");
+            let selectedColor = document.querySelector('input[name="color"]:checked')?.id.replace("color-", "");
+
+            // Tìm biến thể phù hợp
+            let selectedVariant = variants.find(v => v.Size === selectedSize && v.Color === selectedColor);
+
+            if (selectedVariant) {
+                // Hiển thị giá mới
+                let priceHtml = `<span>${selectedVariant.Price.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}</span>`;
+
+                // Nếu có giá khuyến mãi, hiển thị cả giá gốc
+                if (selectedVariant.DiscountPrice) {
+                    priceHtml = `<span>${selectedVariant.DiscountPrice.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}</span>
+                                 <del class="text-muted ml-2">${selectedVariant.Price.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}</del>`;
+                }
+
+                // Cập nhật giá trên giao diện
+                priceElement.innerHTML = priceHtml;
+            }
+        }
+
+        // Lắng nghe sự kiện thay đổi
+        sizeRadios.forEach(radio => radio.addEventListener("change", updatePrice));
+        colorRadios.forEach(radio => radio.addEventListener("change", updatePrice));
+    });
+    // Xử lý nút thêm vào giỏ hàng
+    document.getElementById("addToCartBtn").addEventListener("click", function () {
+        let productId = @Model.Id;
+        let selectedSize = document.querySelector('input[name="size"]:checked')?.id.replace("size-", "");
+        let selectedColor = document.querySelector('input[name="color"]:checked')?.id.replace("color-", "");
+
+        if (!selectedSize || !selectedColor) {
+            alert("Vui lòng chọn kích thước và màu sắc!");
+            return;
+        }
+
+        fetch('/Cart/AddToCart', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ productId, size: selectedSize, color: selectedColor })
+        })
+        .then(response => response.json())
+        .then(data => {
+                if (data.success) {
+                    alert("Đã thêm vào giỏ hàng!");
+                    document.getElementById("cart-count").textContent = data.cartCount;
+				    console.log(data.cartCount);
+            } else {
+                alert("Có lỗi xảy ra!");
+            }
+        });
+    });
+</script>

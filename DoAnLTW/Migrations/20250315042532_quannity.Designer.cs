@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DoAnLTW.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250312152321_add_data")]
-    partial class add_data
+    [Migration("20250315042532_quannity")]
+    partial class quannity
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -89,9 +89,9 @@ namespace DoAnLTW.Migrations
                             Category = "Laptop",
                             Description = "Laptop gaming mạnh mẽ với card RTX 3060",
                             ImageUrl = "/img/product-1.jpg",
-                            ImageUrlsJson = "[\"/img/product-1.jpg\", \"/img/product-1-2.jpg\"]",
+                            ImageUrlsJson = "[\"/img/product-1.jpg\", \"/img/product-3.jpg\"]",
                             Name = "Laptop Gaming Acer",
-                            Price = 1500.99m,
+                            Price = 1500000m,
                             Rating = 4.0,
                             ReviewCount = 120,
                             Stock = 10
@@ -103,9 +103,9 @@ namespace DoAnLTW.Migrations
                             Category = "Smartphone",
                             Description = "iPhone 13 chính hãng, màu xanh",
                             ImageUrl = "/img/product-2.jpg",
-                            ImageUrlsJson = "[\"/img/product-2.jpg\", \"/img/product-2-2.jpg\"]",
+                            ImageUrlsJson = "[\"/img/product-2.jpg\", \"/img/product-4.jpg\"]",
                             Name = "Điện thoại iPhone 13",
-                            Price = 899.99m,
+                            Price = 1200000m,
                             Rating = 5.0,
                             ReviewCount = 300,
                             Stock = 20
@@ -124,10 +124,16 @@ namespace DoAnLTW.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal?>("DiscountPrice")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.Property<string>("Size")
@@ -145,32 +151,36 @@ namespace DoAnLTW.Migrations
                         {
                             Id = 1,
                             Color = "Black",
-                            Price = 1500.99m,
+                            Price = 1500000m,
                             ProductId = 1,
+                            Quantity = 0,
                             Size = "15 inch"
                         },
                         new
                         {
                             Id = 2,
                             Color = "Silver",
-                            Price = 1600.99m,
+                            Price = 1400000m,
                             ProductId = 1,
+                            Quantity = 0,
                             Size = "17 inch"
                         },
                         new
                         {
                             Id = 3,
                             Color = "Blue",
-                            Price = 899.99m,
+                            Price = 1200000m,
                             ProductId = 2,
+                            Quantity = 0,
                             Size = "128GB"
                         },
                         new
                         {
                             Id = 4,
                             Color = "Red",
-                            Price = 999.99m,
+                            Price = 1100000m,
                             ProductId = 2,
+                            Quantity = 0,
                             Size = "256GB"
                         });
                 });

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DoAnLTW.Migrations
 {
     /// <inheritdoc />
-    public partial class add_data : Migration
+    public partial class add_newdata : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -214,8 +214,8 @@ namespace DoAnLTW.Migrations
                 columns: new[] { "Id", "Brand", "Category", "Description", "DiscountPrice", "ImageUrl", "ImageUrlsJson", "Name", "Price", "ProductId", "Rating", "ReviewCount", "Stock" },
                 values: new object[,]
                 {
-                    { 1, "Acer", "Laptop", "Laptop gaming mạnh mẽ với card RTX 3060", null, "/img/product-1.jpg", "[\"/img/product-1.jpg\", \"/img/product-1-2.jpg\"]", "Laptop Gaming Acer", 1500.99m, null, 4.0, 120, 10 },
-                    { 2, "Apple", "Smartphone", "iPhone 13 chính hãng, màu xanh", null, "/img/product-2.jpg", "[\"/img/product-2.jpg\", \"/img/product-2-2.jpg\"]", "Điện thoại iPhone 13", 899.99m, null, 5.0, 300, 20 }
+                    { 1, "Acer", "Laptop", "Laptop gaming mạnh mẽ với card RTX 3060", null, "/img/product-1.jpg", "[\"/img/product-1.jpg\", \"/img/product-3.jpg\"]", "Laptop Gaming Acer", 1500000m, null, 4.0, 120, 10 },
+                    { 2, "Apple", "Smartphone", "iPhone 13 chính hãng, màu xanh", null, "/img/product-2.jpg", "[\"/img/product-2.jpg\", \"/img/product-4.jpg\"]", "Điện thoại iPhone 13", 1200000m, null, 5.0, 300, 20 }
                 });
 
             migrationBuilder.InsertData(
@@ -223,10 +223,10 @@ namespace DoAnLTW.Migrations
                 columns: new[] { "Id", "Color", "Price", "ProductId", "Size" },
                 values: new object[,]
                 {
-                    { 1, "Black", 1500.99m, 1, "15 inch" },
-                    { 2, "Silver", 1600.99m, 1, "17 inch" },
-                    { 3, "Blue", 899.99m, 2, "128GB" },
-                    { 4, "Red", 999.99m, 2, "256GB" }
+                    { 1, "Black", 1500000m, 1, "15 inch" },
+                    { 2, "Silver", 1400000m, 1, "17 inch" },
+                    { 3, "Blue", 1200000m, 2, "128GB" },
+                    { 4, "Red", 1100000m, 2, "256GB" }
                 });
 
             migrationBuilder.CreateIndex(
