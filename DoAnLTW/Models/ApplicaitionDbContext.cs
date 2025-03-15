@@ -13,10 +13,29 @@ namespace DoAnLTW.Models
 
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductVariant> ProductVariants { get; set; }
+        public DbSet<FavouriteProduct> FavouriteProducts { get; set; }
+        public DbSet<WishProductList> WishProductLists { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder); // 🔹 Gọi base để cấu hình Identity đúng
+
+            modelBuilder.Entity<WishProductList>()
+        .HasKey(wp => wp.Id);
+
+            modelBuilder.Entity<WishProductList>()
+                .HasOne(wp => wp.Product)
+                .WithMany()
+                .HasForeignKey(wp => wp.ProductId);
+
+            modelBuilder.Entity<FavouriteProduct>()
+    .HasKey(fp => fp.Id);
+
+            modelBuilder.Entity<FavouriteProduct>()
+                .HasOne(fp => fp.Product)
+                .WithMany()
+                .HasForeignKey(fp => fp.ProductId);
 
             // 🔹 Định nghĩa lại khóa chính cho AspNetUserTokens
             modelBuilder.Entity<IdentityUserToken<string>>()

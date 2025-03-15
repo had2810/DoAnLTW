@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DoAnLTW.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250312152321_add_data")]
-    partial class add_data
+    [Migration("20250313010150_add")]
+    partial class add
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
