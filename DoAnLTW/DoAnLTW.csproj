@@ -25,7 +25,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
     <Folder Include="ViewComponents\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\LayoutAdmin\.DS_Store" />
   </ItemGroup>
 
 </Project>

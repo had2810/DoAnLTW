@@ -160,47 +160,58 @@
                 </div>
  
                 @* Danh sách sản phẩm *@
+                @model IEnumerable<DoAnLTW.Models.Product>
+
+                <!-- Danh sách sản phẩm -->
+                <!-- Danh sách sản phẩm -->
+                <style>
+                    .product-img {
+                        height: 300px; /* Đặt chiều cao cố định, điều chỉnh dựa trên "Giày Jordan 1" */
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        overflow: hidden;
+                    }
+
+                        .product-img img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain; /* Giữ tỷ lệ khung hình, không méo ảnh */
+                        }
+                </style>
                 @{
                     var favouriteProducts = ViewBag.FavouriteProducts as List<int> ?? new List<int>(); // Nhận danh sách ID sản phẩm yêu thích
                 }
+                @*danh sách sản phẩm begin *@
                 @foreach (var product in Model)
                 {
-                    bool isFavourite = favouriteProducts.Contains(product.Id); // Kiểm tra sản phẩm có trong danh sách yêu thích không
                     <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
                         <div class="product-item bg-light mb-4">
-                            <div class="product-img position-relative overflow-hidden"
-                                 onmouseover="this.querySelector('.product-action').style.opacity = '1'; this.querySelector('.product-action').style.visibility = 'visible';"
-                                 onmouseout="this.querySelector('.product-action').style.opacity = '0'; this.querySelector('.product-action').style.visibility = 'hidden';">
-
+                            <div class="product-img position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="@product.ImageUrl" alt="@product.Name">
-
-                                <div class="product-action" style="opacity: 0; visibility: hidden;">
+                                <div class="product-action">
                                     <a class="btn btn-outline-dark btn-square" href="#"><i class="fa fa-shopping-cart"></i></a>
-
-                                    <form asp-controller="Shop" asp-action="AddToFavourites" method="post">
-                                        <input type="hidden" name="productId" value="@product.Id" />
-                                        <button type="submit" class="btn btn-outline-dark btn-square">
-                                            <i class="@(isFavourite ? "fa-solid fa-heart text-danger" : "far fa-heart")"></i>
-                                        </button>
-                                    </form>
-
+                                    <a class="btn btn-outline-dark btn-square" href="#"><i class="far fa-heart"></i></a>
                                     <a class="btn btn-outline-dark btn-square" href="#"><i class="fa fa-sync-alt"></i></a>
-                                    <a class="btn btn-outline-dark btn-square" asp-controller="Shop" asp-action="Detail" asp-route-id="@product.Id">
-                                        <i class="fa fa-search"></i>
-                                    </a>
+                                    <a class="btn btn-outline-dark btn-square" asp-controller="Shop" asp-action="Detail" asp-route-id="@product.Id"><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
-
                             <div class="text-center py-4">
                                 <a class="h6 text-decoration-none text-truncate" href="#">@product.Name</a>
                                 <div class="d-flex align-items-center justify-content-center mt-2">
                                     <h5>@product.Price.ToString("C")</h5>
+                                    @* @if (product.OldPrice.HasValue) *@
+                                    @* { *@
+                                    @*     <h6 class="text-muted ml-2"><del>@product.OldPrice.Value.ToString("C")</del></h6> *@
+                                    @* } *@
                                 </div>
                             </div>
                         </div>
                     </div>
                 }
-
+                <!-- Danh sách sản phẩm end -->
+           
+                    
                @*  danh sách sản phẩm end *@
 
             </div>

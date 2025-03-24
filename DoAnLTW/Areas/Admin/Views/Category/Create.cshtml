@@ -1,0 +1,19 @@
+﻿@model DoAnLTW.Models.Category
+
+@{
+    ViewData["Title"] = "Thêm Danh Mục";
+    Layout = "~/Areas/Admin/Views/Shared/layoutAdmin.cshtml";
+}
+
+<h2>Thêm Danh Mục</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="Name">Tên Danh Mục</label>
+        <input asp-for="Name" class="form-control" required />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-2">Lưu</button>
+    <a asp-action="Index" class="btn btn-secondary mt-2">Quay lại</a>
+</form>

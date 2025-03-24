@@ -1,37 +1,46 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text.Json;
 
 namespace DoAnLTW.Models
 {
     public class Product
     {
         public int Id { get; set; }
+
+        [Required(ErrorMessage = "Tên sản phẩm là bắt buộc")]
+        [StringLength(100, ErrorMessage = "Tên sản phẩm không được quá 100 ký tự")]
         public string Name { get; set; }
+
+        [Required(ErrorMessage = "Giá sản phẩm là bắt buộc")]
+        [Range(0, double.MaxValue, ErrorMessage = "Giá sản phẩm không hợp lệ")]
         public decimal Price { get; set; }
-        public decimal? DiscountPrice { get; set; } // Giá sau khuyến mãi
+
+        [Required(ErrorMessage = "Thương hiệu là bắt buộc")]
+        public int BrandId { get; set; }
+
+        [ForeignKey("BrandId")]
+        public Brand? Brand { get; set; }
+
+        [Required(ErrorMessage = "Mô tả sản phẩm là bắt buộc")]
         public string Description { get; set; }
-        public int Stock { get; set; }
-        public string Brand { get; set; }
-        public double Rating { get; set; }
-        public int ReviewCount { get; set; }
-        public string Category { get; set; }
 
-        public List<ProductVariant> Variants { get; set; } = new List<ProductVariant>();
-        public List<Product> RelatedProducts { get; set; } = new List<Product>();
+        [Required(ErrorMessage = "Danh mục là bắt buộc")]
+        public int CategoryId { get; set; }
 
+        [ForeignKey("CategoryId")]
+        public Category? Category { get; set; }
+
+        // Một sản phẩm có nhiều hình ảnh
+        public List<Product_Images> Images { get; set; } = new List<Product_Images>();
+
+        // Liên kết với bảng trung gian ProductSize
+        public List<ProductSize> ProductSizes { get; set; } = new List<ProductSize>();
+
+        [NotMapped]
         public string ImageUrl { get; set; }
 
-        // 🔹 Dùng chuỗi JSON để lưu danh sách ảnh trong database
-        [Column(TypeName = "nvarchar(max)")]
-        public string ImageUrlsJson { get; set; }
-
-        // 🔹 Không ánh xạ thuộc tính này vào database, chỉ dùng trong code
+        // Thuộc tính tính toán tổng số lượng (nếu cần)
         [NotMapped]
-        public List<string> ImageUrls
-        {
-            get => string.IsNullOrEmpty(ImageUrlsJson) ? new List<string>() : JsonSerializer.Deserialize<List<string>>(ImageUrlsJson);
-            set => ImageUrlsJson = JsonSerializer.Serialize(value);
-        }
+        public int TotalStock => ProductSizes?.Sum(ps => ps.Stock) ?? 0;
     }
 }

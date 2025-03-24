@@ -1,0 +1,61 @@
+﻿@model List<DoAnLTW.Models.Product>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/layoutAdmin.cshtml";
+}
+
+<h2 class="text-center">Danh sách sản phẩm</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<a asp-action="Create" asp-controller="Product" asp-area="Admin" class="btn btn-success mb-3">Thêm sản phẩm</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Thương hiệu</th>
+            <th>Danh mục</th>
+            <th>Hình ảnh</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Price.ToString("N0")</td>
+                <td>@(item.Brand != null ? item.Brand.Name : "Không xác định")</td>
+                <td>@(item.Category != null ? item.Category.Name : "Không xác định")</td>
+                <td>
+                    @if (item.Images.Any())
+                    {
+                        <img src="@item.Images.First().ImageUrl" alt="Ảnh sản phẩm" style="width: 60px; height: 60px; object-fit: cover;" />
+                    }
+                    else
+                    {
+                        <span>Chưa có ảnh</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Details" asp-controller="Product" asp-area="Admin" asp-route-id="@item.Id" class="btn btn-info btn-sm">Xem</a>
+                    <a asp-action="Edit" asp-controller="Product" asp-area="Admin" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Sửa</a>
+                    <a asp-action="Delete" asp-controller="Product" asp-area="Admin" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

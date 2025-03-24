@@ -22,7 +22,7 @@ namespace DoAnLTW.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("DoAnLTW.Models.FavouriteProduct", b =>
+            modelBuilder.Entity("DoAnLTW.Models.Brand", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -30,18 +30,32 @@ namespace DoAnLTW.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserId")
+                    b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId");
+                    b.ToTable("Brands");
+                });
 
-                    b.ToTable("FavouriteProducts");
+            modelBuilder.Entity("DoAnLTW.Models.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("DoAnLTW.Models.Product", b =>
@@ -52,43 +66,50 @@ namespace DoAnLTW.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Brand")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("BrandId")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal?>("DiscountPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("ImageUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageUrlsJson")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("ProductId")
+                    b.Property<int?>("SizeId")
                         .HasColumnType("int");
 
-                    b.Property<double>("Rating")
-                        .HasColumnType("float");
+                    b.HasKey("Id");
 
-                    b.Property<int>("ReviewCount")
+                    b.HasIndex("BrandId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("SizeId");
+
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("DoAnLTW.Models.ProductSize", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SizeId")
                         .HasColumnType("int");
 
                     b.Property<int>("Stock")
@@ -98,40 +119,12 @@ namespace DoAnLTW.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("Products");
+                    b.HasIndex("SizeId");
 
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Brand = "Acer",
-                            Category = "Laptop",
-                            Description = "Laptop gaming mạnh mẽ với card RTX 3060",
-                            ImageUrl = "/img/product-1.jpg",
-                            ImageUrlsJson = "[\"/img/product-1.jpg\", \"/img/product-1-2.jpg\"]",
-                            Name = "Laptop Gaming Acer",
-                            Price = 1500.99m,
-                            Rating = 4.0,
-                            ReviewCount = 120,
-                            Stock = 10
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Brand = "Apple",
-                            Category = "Smartphone",
-                            Description = "iPhone 13 chính hãng, màu xanh",
-                            ImageUrl = "/img/product-2.jpg",
-                            ImageUrlsJson = "[\"/img/product-2.jpg\", \"/img/product-2-2.jpg\"]",
-                            Name = "Điện thoại iPhone 13",
-                            Price = 899.99m,
-                            Rating = 5.0,
-                            ReviewCount = 300,
-                            Stock = 20
-                        });
+                    b.ToTable("ProductSizes");
                 });
 
-            modelBuilder.Entity("DoAnLTW.Models.ProductVariant", b =>
+            modelBuilder.Entity("DoAnLTW.Models.Product_Images", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -139,62 +132,21 @@ namespace DoAnLTW.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Color")
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
-
-                    b.Property<string>("Size")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductVariants");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Color = "Black",
-                            Price = 1500.99m,
-                            ProductId = 1,
-                            Size = "15 inch"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Color = "Silver",
-                            Price = 1600.99m,
-                            ProductId = 1,
-                            Size = "17 inch"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Color = "Blue",
-                            Price = 899.99m,
-                            ProductId = 2,
-                            Size = "128GB"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Color = "Red",
-                            Price = 999.99m,
-                            ProductId = 2,
-                            Size = "256GB"
-                        });
+                    b.ToTable("ProductImages");
                 });
 
-            modelBuilder.Entity("DoAnLTW.Models.WishProductList", b =>
+            modelBuilder.Entity("DoAnLTW.Models.Size", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -202,18 +154,13 @@ namespace DoAnLTW.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ProductId")
+                    b.Property<int>("size")
+                        .HasMaxLength(10)
                         .HasColumnType("int");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("WishProductLists");
+                    b.ToTable("Sizes");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -361,12 +308,10 @@ namespace DoAnLTW.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -403,12 +348,10 @@ namespace DoAnLTW.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -418,39 +361,52 @@ namespace DoAnLTW.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("DoAnLTW.Models.FavouriteProduct", b =>
-                {
-                    b.HasOne("DoAnLTW.Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("DoAnLTW.Models.Product", b =>
                 {
-                    b.HasOne("DoAnLTW.Models.Product", null)
-                        .WithMany("RelatedProducts")
-                        .HasForeignKey("ProductId");
+                    b.HasOne("DoAnLTW.Models.Brand", "Brand")
+                        .WithMany("Products")
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DoAnLTW.Models.Category", "Category")
+                        .WithMany("Products")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DoAnLTW.Models.Size", null)
+                        .WithMany("Products")
+                        .HasForeignKey("SizeId");
+
+                    b.Navigation("Brand");
+
+                    b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("DoAnLTW.Models.ProductVariant", b =>
+            modelBuilder.Entity("DoAnLTW.Models.ProductSize", b =>
                 {
                     b.HasOne("DoAnLTW.Models.Product", "Product")
-                        .WithMany("Variants")
+                        .WithMany("ProductSizes")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("DoAnLTW.Models.Size", "Size")
+                        .WithMany()
+                        .HasForeignKey("SizeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Product");
+
+                    b.Navigation("Size");
                 });
 
-            modelBuilder.Entity("DoAnLTW.Models.WishProductList", b =>
+            modelBuilder.Entity("DoAnLTW.Models.Product_Images", b =>
                 {
                     b.HasOne("DoAnLTW.Models.Product", "Product")
-                        .WithMany()
+                        .WithMany("Images")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -509,11 +465,26 @@ namespace DoAnLTW.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("DoAnLTW.Models.Brand", b =>
+                {
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("DoAnLTW.Models.Category", b =>
+                {
+                    b.Navigation("Products");
+                });
+
             modelBuilder.Entity("DoAnLTW.Models.Product", b =>
                 {
-                    b.Navigation("RelatedProducts");
+                    b.Navigation("Images");
 
-                    b.Navigation("Variants");
+                    b.Navigation("ProductSizes");
+                });
+
+            modelBuilder.Entity("DoAnLTW.Models.Size", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }
