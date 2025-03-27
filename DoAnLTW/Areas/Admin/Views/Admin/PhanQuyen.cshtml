@@ -1,0 +1,55 @@
+﻿@model List<dynamic>
+@{
+    ViewData["Title"] = "Phân quyền";
+    Layout = "~/Areas/Admin/Views/Shared/layoutAdmin.cshtml";
+}
+
+<h2 class="text-center">Phân quyền </h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Quyền</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>
+                    <select class="role-select" data-userid="@user.Id">
+                        <option value="Customer" selected="@(user.Role == "Customer" ? "selected" : null)">Customer</option>
+                        <option value="Employee" selected="@(user.Role == "Employee" ? "selected" : null)">Employee</option>
+                        <option value="Admin" selected="@(user.Role == "Admin" ? "selected" : null)">Admin</option>
+                    </select>
+                </td>
+                <td><button class="btn-save" data-userid="@user.Id">Lưu</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    document.querySelectorAll('.btn-save').forEach(button => {
+        button.addEventListener('click', async function () {
+            let userId = this.getAttribute('data-userid');
+            let role = document.querySelector(`.role-select[data-userid="${userId}"]`).value;
+
+            let response = await fetch('/Admin/Admin/SetUserRole', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ userId, role })
+            });
+
+            if (response.ok) {
+                alert("Cập nhật thành công!");
+            } else {
+                alert("Có lỗi xảy ra!");
+            }
+        });
+    });
+</script>

@@ -40,7 +40,19 @@
                     <label class="control-label">Danh mục</label>
                     <dd class="col-sm-9">@(Model.Category != null ? Model.Category.Name : "Không có danh mục")</dd>
                 </div>
-
+                <div class="form-group mb-3">
+					<label class="control-label">Size</label>
+					<dd class="col-sm-9">
+						@if (Model.ProductSizes != null && Model.ProductSizes.Any())
+						{
+							@string.Join(", ", Model.ProductSizes.Select(ps => ps.Size?.size.ToString()))
+						}
+						else
+						{
+							<span>Không có size</span>
+						}
+					</dd>
+                </div>
                 <div class="form-group mb-3">
                     <dt class="col-sm-3">Hình ảnh</dt>
                     <dd class="col-sm-9">

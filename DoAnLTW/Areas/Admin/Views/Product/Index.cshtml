@@ -22,11 +22,12 @@
 <table class="table table-bordered">
     <thead>
         <tr>
-            <th>ID</th>
             <th>Tên</th>
             <th>Giá</th>
             <th>Thương hiệu</th>
             <th>Danh mục</th>
+            <th>Chi tiết sản phẩm</th>
+            <th>Size</th>
             <th>Hình ảnh</th>
             <th>Hành động</th>
         </tr>
@@ -35,11 +36,21 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Id</td>
                 <td>@item.Name</td>
                 <td>@item.Price.ToString("N0")</td>
                 <td>@(item.Brand != null ? item.Brand.Name : "Không xác định")</td>
                 <td>@(item.Category != null ? item.Category.Name : "Không xác định")</td>
+                <td>@(item.Description)</td>
+                <td>
+                    @if (item.ProductSizes != null && item.ProductSizes.Any())
+                    {
+                        @string.Join(", ", item.ProductSizes.Select(ps => ps.Size?.size.ToString()))
+                    }
+                    else
+                    {
+                        <span>Không xác định</span>
+                    }
+                </td>
                 <td>
                     @if (item.Images.Any())
                     {

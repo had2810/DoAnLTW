@@ -24,6 +24,7 @@
         <tr>
             <th>ID</th>
             <th>Tên Danh Mục</th>
+            <th>Hình ảnh danh mục</th>
             <th>Hành Động</th>
         </tr>
     </thead>
@@ -33,6 +34,9 @@
             <tr>
                 <td>@category.Id</td>
                 <td>@category.Name</td>
+                <td>
+                    <img src="@category.ImageUrl" alt="Ảnh danh mục " width=" 500" height=" 100">
+                </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@category.Id" class="btn btn-warning btn-sm">Sửa</a>
                     <a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-danger btn-sm"

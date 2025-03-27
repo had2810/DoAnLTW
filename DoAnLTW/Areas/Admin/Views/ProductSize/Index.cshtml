@@ -1,0 +1,61 @@
+﻿@model List<DoAnLTW.Models.ProductSize>
+
+@{
+    ViewData["Title"] = "Danh sách Size sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/layoutAdmin.cshtml";
+}
+
+<h2 class="text-center">Danh sách Size sản phẩm</h2>
+
+<a asp-action="Create" class="btn btn-success mb-3">Thêm Size</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Size</th>
+            <th>Số lượng</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Product?.Name</td>
+                <td>@item.Size?.size</td>
+                <td class="d-flex align-items-center">
+                    <button class="btn btn-sm btn-danger me-2 update-quantity" data-id="@item.Id" data-change="-1">-</button>
+                    <span id="quantity-@item.Id">@item.Stock</span>
+                    <button class="btn btn-sm btn-success ms-2 update-quantity" data-id="@item.Id" data-change="1">+</button>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc chắn muốn xóa?');">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script>
+    document.querySelectorAll('.update-quantity').forEach(button => {
+        button.addEventListener('click', function () {
+            let id = this.getAttribute('data-id');
+            let change = parseInt(this.getAttribute('data-change'));
+
+            fetch(`/Admin/ProductSize/UpdateQuantity?id=${id}&change=${change}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-Requested-With': 'XMLHttpRequest'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    document.getElementById(`quantity-${id}`).textContent = data.quantity;
+                }
+            });
+        });
+    });
+</script>
