@@ -5,178 +5,218 @@ using DoAnLTW.Models;
 using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Authorization;
+using DoAnLTW.Models.Repositories;
+using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 
 namespace DoAnLTW.Controllers
 {
-
-    public class ShopController : Controller
+    public class ShopController : BaseController
     {
-
         private readonly ApplicationDbContext _context;
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly IProductRepository _productRepository;
 
-        public ShopController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
+        public ShopController(ApplicationDbContext context, UserManager<IdentityUser> userManager, IProductRepository productRepository)
         {
             _context = context;
             _userManager = userManager;
+            _productRepository = productRepository;
         }
 
         // Action hiển thị danh sách sản phẩm
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(decimal? minPrice, decimal? maxPrice, string brandId, string size, int? categoryId)
         {
-            var products = _context.Products
-        .Include(p => p.Images) // Include để lấy dữ liệu từ bảng Product_Images
-        .Select(p => new Product
+            SetCartCount();
+
+            // Lấy danh sách sản phẩm với các bộ lọc
+            var query = _context.Products
+                .Include(p => p.Brand)
+                .Include(p => p.Category)
+                .Include(p => p.ProductSizes)
+                    .ThenInclude(ps => ps.Size)
+                .Include(p => p.Images)
+                .AsQueryable();
+
+            // Lọc theo giá
+            if (minPrice.HasValue)
+            {
+                query = query.Where(p => p.Price >= minPrice.Value);
+            }
+            if (maxPrice.HasValue)
+            {
+                query = query.Where(p => p.Price <= maxPrice.Value);
+            }
+
+            // Lọc theo thương hiệu
+            if (!string.IsNullOrEmpty(brandId))
+            {
+                var brandIds = brandId.Split(',').Select(int.Parse).ToList();
+                query = query.Where(p => brandIds.Contains(p.BrandId));
+            }
+
+            // Lọc theo size
+            if (!string.IsNullOrEmpty(size))
+            {
+                var selectedSizes = size.Split(',').Select(int.Parse).ToList();
+                query = query.Where(p => p.ProductSizes.Any(ps => selectedSizes.Contains(ps.Size.size)));
+            }
+
+            // Lọc theo danh mục
+            if (categoryId.HasValue)
+            {
+                query = query.Where(p => p.CategoryId == categoryId.Value);
+            }
+
+            var products = await query.ToListAsync();
+
+            // Chuẩn bị dữ liệu cho các bộ lọc
+            var brands = await _context.Brands
+                .Select(b => new
+                {
+                    b.Id,
+                    b.Name,
+                    ProductCount = _context.Products.Count(p => p.BrandId == b.Id)
+                })
+                .ToListAsync();
+
+            var availableSizes = await _context.Sizes
+                .Select(s => new
+                {
+                    s.size,
+                    ProductCount = _context.ProductSizes.Count(ps => ps.Size.size == s.size)
+                })
+                .OrderBy(s => s.size)
+                .ToListAsync();
+
+            // Lấy danh sách danh mục và số lượng sản phẩm
+            var categories = await _context.Categories
+                .Select(c => new
+                {
+                    c.Id,
+                    c.Name,
+                    ProductCount = _context.Products.Count(p => p.CategoryId == c.Id)
+                })
+                .ToListAsync();
+
+            // Tính toán số lượng sản phẩm trong mỗi khoảng giá
+            var priceRanges = new List<PriceRange>
+            {
+                new PriceRange { Min = 0M, Max = 500000M },
+                new PriceRange { Min = 500000M, Max = 1000000M },
+                new PriceRange { Min = 1000000M, Max = 2000000M },
+                new PriceRange { Min = 2000000M, Max = 5000000M },
+                new PriceRange { Min = 5000000M, Max = null }
+            };
+
+            var priceRangeCounts = priceRanges.Select(range => new
+            {
+                Range = range,
+                Count = _context.Products.Count(p => 
+                    p.Price >= range.Min && 
+                    (!range.Max.HasValue || p.Price <= range.Max.Value))
+            }).ToList();
+
+            // Truyền dữ liệu cho view
+            ViewBag.Brands = brands;
+            ViewBag.Sizes = availableSizes;
+            ViewBag.Categories = categories;
+            ViewBag.PriceRanges = priceRangeCounts;
+            ViewBag.TotalProducts = await _context.Products.CountAsync();
+
+            // Gán ImageUrl cho mỗi sản phẩm
+            foreach (var product in products)
+            {
+                var firstImage = product.Images.FirstOrDefault();
+                product.ImageUrl = firstImage?.ImageUrl ?? "/img/default-product.jpg";
+            }
+
+            // Lấy danh sách sản phẩm yêu thích từ session
+            var favouriteProducts = HttpContext.Session.GetString("FavouriteProducts");
+            ViewBag.FavouriteProducts = string.IsNullOrEmpty(favouriteProducts) 
+                ? new List<int>() 
+                : JsonConvert.DeserializeObject<List<int>>(favouriteProducts);
+
+            return View(products);
+        }
+        
+        // Hiển thị chi tiết sản phẩm
+        public async Task<IActionResult> Detail(int id)
         {
-            Id = p.Id,
-            Name = p.Name,
-            Price = p.Price,
-            Brand = p.Brand,
-            Description = p.Description,
-            CategoryId = p.CategoryId,
-            ImageUrl = _context.ProductImages
-                .Where(img => img.ProductId == p.Id)
-                .Select(img => img.ImageUrl)
-                .FirstOrDefault()
-        })
-        .ToList();
+            var product = await _context.Products
+          .Include(p => p.Brand)
+          .Include(p => p.Images)
+          .Include(p => p.ProductSizes) // Đảm bảo có dữ liệu size
+              .ThenInclude(ps => ps.Size)
+          .FirstOrDefaultAsync(p => p.Id == id);
+
+            if (product == null)
+            {
+                return NotFound(); // Trả về lỗi 404 nếu sản phẩm không tồn tại
+            }
+
+            return View(product);
+        }
+
+        public async Task<IActionResult> FavouriteProducts()
+        {
+            SetCartCount();
+            // Lấy danh sách sản phẩm yêu thích từ session
+            var favouriteProducts = HttpContext.Session.GetString("FavouriteProducts");
+            if (string.IsNullOrEmpty(favouriteProducts))
+            {
+                return View(new List<Product>());
+            }
+
+            var productIds = JsonConvert.DeserializeObject<List<int>>(favouriteProducts);
+            var products = await _context.Products
+                .Include(p => p.Brand)
+                .Include(p => p.Category)
+                .Include(p => p.Images)
+                .Include(p => p.ProductSizes)
+                    .ThenInclude(ps => ps.Size)
+                .Where(p => productIds.Contains(p.Id))
+                .ToListAsync();
 
             return View(products);
         }
 
+        [HttpPost]
+        public IActionResult ToggleFavourite(int productId)
+        {
+            var favouriteProducts = HttpContext.Session.GetString("FavouriteProducts");
+            var productIds = new List<int>();
 
-        // Hiển thị danh sách sản phẩm
-        // [AllowAnonymous]
+            if (!string.IsNullOrEmpty(favouriteProducts))
+            {
+                productIds = JsonConvert.DeserializeObject<List<int>>(favouriteProducts);
+            }
 
-        //public async Task<IActionResult> Index(string category = null, string search = null)
-        //{
-        //    IQueryable<Product> products = _context.Products.Include(p => p.Variants);
+            if (productIds.Contains(productId))
+            {
+                productIds.Remove(productId);
+            }
+            else
+            {
+                productIds.Add(productId);
+            }
 
-        //    if (!string.IsNullOrEmpty(category))
-        //    {
-        //        products = products.Where(p => p.Category.Name == category);
-        //    }
+            HttpContext.Session.SetString("FavouriteProducts", JsonConvert.SerializeObject(productIds));
+            ViewBag.FavouriteCount = productIds.Count;
 
-        //    if (!string.IsNullOrEmpty(search))
-        //    {
-        //        products = products.Where(p => p.Name.Contains(search));
-        //    }
+            return Ok(new { success = true, count = productIds.Count });
+        }
+    }
 
-        //    var userId = _userManager.GetUserId(User);
-        //    var favouriteProductIds = _context.FavouriteProducts
-        //        .Where(f => f.UserId == userId)
-        //        .Select(f => f.ProductId)
-        //        .ToList();
+    public class PriceRange
+    {
+        public decimal Min { get; set; }
+        public decimal? Max { get; set; }
+    }
 
-        //    // Tính số lượng sản phẩm yêu thích
-        //    ViewBag.FavouriteProducts = favouriteProductIds;
-        //    ViewBag.FavouriteCount = userId != null ? await _context.FavouriteProducts.CountAsync(f => f.UserId == userId) : 0;
-
-        //    return View(products.ToList());
-        //}
-
-        //// Chi tiết sản phẩm
-        //public async Task<IActionResult> Detail(int id)
-        //{
-        //    var product = _context.Products
-        //        .Include(p => p.Variants)
-        //        .Include(p => p.RelatedProducts)
-        //        .FirstOrDefault(p => p.Id == id);
-
-        //    if (product == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var userId = _userManager.GetUserId(User);
-        //    ViewBag.FavouriteCount = userId != null ? await _context.FavouriteProducts.CountAsync(f => f.UserId == userId) : 0;
-
-        //    return View(product);
-        //}
-
-        //// Lọc sản phẩm theo danh mục
-        //public async Task<IActionResult> Category(string category)
-        //{
-        //    var products = _context.Products.Where(p => p.Category.Name == category).ToList();
-        //    var userId = _userManager.GetUserId(User);
-        //    ViewBag.FavouriteCount = userId != null ? await _context.FavouriteProducts.CountAsync(f => f.UserId == userId) : 0;
-        //    return View("Index", products);
-        //}
-
-        //// Tìm kiếm sản phẩm
-        //public async Task<IActionResult> Search(string searchTerm)
-        //{
-        //    var products = _context.Products
-        //        .Where(p => p.Name.Contains(searchTerm) || p.Description.Contains(searchTerm))
-        //        .ToList();
-
-        //    var userId = _userManager.GetUserId(User);
-        //    ViewBag.FavouriteCount = userId != null ? await _context.FavouriteProducts.CountAsync(f => f.UserId == userId) : 0;
-        //    return View("Index", products);
-        //}
-
-        //// Hiển thị sản phẩm liên quan
-        //public async Task<IActionResult> RelatedProducts(int productId)
-        //{
-        //    var product = _context.Products.Include(p => p.RelatedProducts).FirstOrDefault(p => p.Id == productId);
-
-        //    if (product == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var userId = _userManager.GetUserId(User);
-        //    ViewBag.FavouriteCount = userId != null ? await _context.FavouriteProducts.CountAsync(f => f.UserId == userId) : 0;
-        //    return PartialView("_RelatedProducts", product.RelatedProducts);
-        //}
-
-        //// Thêm sản phẩm vào danh sách yêu thích (không dùng AJAX)
-        //[HttpPost]
-        //public async Task<IActionResult> AddToFavourites(int productId)
-        //{
-        //    var userId = await _userManager.GetUserIdAsync(await _userManager.GetUserAsync(User));
-        //    if (string.IsNullOrEmpty(userId))
-        //    {
-        //        return RedirectToAction("Index", "Shop");
-        //    }
-
-        //    var existingFavourite = await _context.FavouriteProducts
-        //        .FirstOrDefaultAsync(f => f.UserId == userId && f.ProductId == productId);
-
-        //    if (existingFavourite != null)
-        //    {
-        //        return RedirectToAction("Index", "Shop");
-        //    }
-
-        //    var favourite = new FavouriteProduct
-        //    {
-        //        UserId = userId,
-        //        ProductId = productId
-        //    };
-
-        //    _context.FavouriteProducts.Add(favourite);
-        //    await _context.SaveChangesAsync();
-
-        //    return RedirectToAction("Index", "Shop");
-        //}
-
-        //// Hiển thị view danh sách yêu thích
-        //public async Task<IActionResult> FavouriteProducts()
-        //{
-        //    var userId = _userManager.GetUserId(User);
-        //    if (userId == null)
-        //    {
-        //        return RedirectToAction("Login", "Account");
-        //    }
-
-        //    var favouriteProducts = _context.FavouriteProducts
-        //        .Where(f => f.UserId == userId)
-        //        .Include(f => f.Product)
-        //        .Select(f => f.Product)
-        //        .ToList();
-
-        //    ViewBag.FavouriteCount = await _context.FavouriteProducts.CountAsync(f => f.UserId == userId);
-        //    return View(favouriteProducts);
-        //}
+    public class PriceRangeCount
+    {
+        public PriceRange Range { get; set; }
+        public int Count { get; set; }
     }
 }

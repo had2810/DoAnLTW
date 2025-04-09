@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DoAnLTW.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DoAnLTW.Controllers
 {
-    public class ContactController : Controller
+    public class ContactController : BaseController
     {
         public IActionResult Index()
         {
+            SetCartCount();
             return View();
         }
     }

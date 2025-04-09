@@ -194,6 +194,13 @@
                             <i class="fa-solid fa-ruler menu-icon"></i>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">
+                            <span class="menu-title">Quản lý đơn hàng</span>
+                            <i class="fa-solid fa-file-invoice-dollar menu-icon"></i>
+                        </a>
+                    </li>
+
                     @if(User.IsInRole("Admin")){
                         <li class="nav-item">
                             <a class="nav-link" asp-area="Admin" asp-controller="Admin" asp-action="PhanQuyen">
@@ -202,7 +209,15 @@
                             </a>
                         </li>
                     }
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="Support" asp-action="Index">
+                            <span class="menu-title">Danh sách hỗ trợ</span>
+                            <i class="fa-solid fa-box menu-icon"></i>
+                        </a>
+                    </li>
                 </ul>
+
+
             </nav>
             <!-- partial -->
             <div class="main-panel">
@@ -210,6 +225,10 @@
                     @RenderBody()
                 </div>
                 <!-- content-wrapper ends -->
+
+                <!-- ✅ Thêm dòng này để render Scripts -->
+    @RenderSection("Scripts", required: false)
+
                 <!-- partial:../../partials/_footer.html -->
                 <footer class="footer">
                 </footer>

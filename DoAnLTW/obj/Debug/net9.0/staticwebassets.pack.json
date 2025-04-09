@@ -1,1343 +1,1407 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\.gitignore",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\.gitignore",
       "PackagePath": "staticwebassets\\LayoutAdmin\\.gitignore"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\CHANGELOG.md",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\CHANGELOG.md",
       "PackagePath": "staticwebassets\\LayoutAdmin\\CHANGELOG.md"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\LICENSE",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\LICENSE",
       "PackagePath": "staticwebassets\\LayoutAdmin"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\PSD\\Purple_dashboard_free.psd",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\PSD\\Purple_dashboard_free.psd",
       "PackagePath": "staticwebassets\\LayoutAdmin\\PSD\\Purple_dashboard_free.psd"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\README.md",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\README.md",
       "PackagePath": "staticwebassets\\LayoutAdmin\\README.md"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\css\\style.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\css\\style.css.map",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\css\\style.css.map",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\css\\style.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.eot"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Bold.woff2"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.eot"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Light.woff2"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.eot"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Medium.woff2"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.eot"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\circle.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\circle.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\circle.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\circle.svg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\circle.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\circle.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_1.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_1.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_1.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_2.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_2.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_2.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_3.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_3.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_3.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_4.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\dashboard\\img_4.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\dashboard\\img_4.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-1.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-1.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-1.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-2.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-2.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-2.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-3.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-3.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-3.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-4.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-4.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces-clipart\\pic-4.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face1.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face1.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face1.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face10.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face10.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face10.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face11.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face11.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face11.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face12.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face12.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face12.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face13.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face13.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face13.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face14.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face14.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face14.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face15.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face15.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face15.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face16.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face16.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face16.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face17.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face17.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face17.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face18.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face18.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face18.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face19.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face19.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face19.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face2.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face2.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face2.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face20.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face20.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face20.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face21.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face21.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face21.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face22.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face22.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face22.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face23.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face23.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face23.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face24.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face24.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face24.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face25.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face25.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face25.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face26.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face26.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face26.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face27.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face27.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face27.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face3.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face3.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face3.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face4.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face4.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face4.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face5.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face5.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face5.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face6.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face6.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face6.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face7.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face7.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face7.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face8.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face8.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face8.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face9.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\faces\\face9.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\faces\\face9.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\favicon.ico",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\favicon.ico",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\favicon.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\favicon.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\logo-mini.svg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\logo-mini.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\logo-mini.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\logo.svg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\logo.svg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\blue.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\blue.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\blue.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\dark.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\dark.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\dark.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\flag.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\flag.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\flag.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\green.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\green.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\green.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\jsgrid-icons.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\jsgrid-icons.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\jsgrid-icons.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\red.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\red.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\red.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\yellow.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\images\\sprites\\yellow.png",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\images\\sprites\\yellow.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\chart.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\chart.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\chart.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\dashboard.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\dashboard.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\dashboard.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\file-upload.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\file-upload.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\file-upload.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\hoverable-collapse.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\hoverable-collapse.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\hoverable-collapse.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\jquery.cookie.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\jquery.cookie.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\jquery.cookie.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\misc.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\misc.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\misc.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\off-canvas.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\off-canvas.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\off-canvas.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\todo.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\todo.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\todo.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\todolist.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\js\\todolist.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\js\\todolist.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_dashboard.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_dashboard.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_dashboard.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_demo.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_demo.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_demo.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_fonts.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_fonts.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_fonts.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_footer.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_footer.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_footer.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_functions.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_layouts.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_layouts.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_layouts.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_misc.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_misc.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_navbar.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_reset.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_reset.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_reset.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_sidebar.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_sidebar.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_sidebar.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_typography.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_typography.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_typography.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_utilities.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_variables.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_vertical-wrapper.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_vertical-wrapper.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_vertical-wrapper.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_widget-grid.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\_widget-grid.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\_widget-grid.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_badges.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_badges.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_badges.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_bootstrap-progress.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_bootstrap-progress.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_bootstrap-progress.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_breadcrumbs.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_breadcrumbs.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_breadcrumbs.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_buttons.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_buttons.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_cards.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_cards.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_checkbox-radio.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_checkbox-radio.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_checkbox-radio.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_dropdown.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_dropdown.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_forms.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_forms.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_icons.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_icons.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_icons.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_lists.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_lists.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_preview.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_preview.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_preview.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_tables.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_tables.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_todo-list.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\components\\_todo-list.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\components\\_todo-list.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\landing-screens\\_auth.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\landing-screens\\_auth.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\landing-screens\\_auth.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_animation.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_animation.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_animation.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_background.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_background.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_background.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_badges.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_badges.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_badges.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_blockqoute.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_blockqoute.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_blockqoute.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_breadcrumbs.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_breadcrumbs.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_breadcrumbs.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_cards.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_cards.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_misc.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_misc.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_pagination.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_popovers.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_popovers.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_popovers.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_text.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_text.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_text.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_tooltips.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\mixins\\_tooltips.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\mixins\\_tooltips.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\style.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\scss\\style.scss",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\scss\\style.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\chart.js\\Chart.min.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\chart.js\\Chart.min.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\chart.js\\Chart.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\css\\vendor.bundle.base.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\css\\vendor.bundle.base.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\css\\vendor.bundle.base.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\js\\vendor.bundle.base.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\js\\vendor.bundle.base.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\js\\vendor.bundle.base.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
       "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\gulp-tasks\\inject.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\gulp-tasks\\inject.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\gulp-tasks\\inject.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\gulp-tasks\\serve.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\gulp-tasks\\serve.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\gulp-tasks\\serve.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\gulp-tasks\\vendors.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\gulp-tasks\\vendors.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\gulp-tasks\\vendors.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\gulpfile.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\gulpfile.js",
       "PackagePath": "staticwebassets\\LayoutAdmin\\gulpfile.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\index.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\index.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\index.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\package.json",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\package.json",
       "PackagePath": "staticwebassets\\LayoutAdmin\\package.json"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\charts\\chartjs.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\charts\\chartjs.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\charts\\chartjs.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\forms\\basic_elements.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\forms\\basic_elements.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\forms\\basic_elements.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\icons\\mdi.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\icons\\mdi.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\icons\\mdi.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\samples\\blank-page.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\samples\\blank-page.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\blank-page.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\samples\\error-404.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\samples\\error-404.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\error-404.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\samples\\error-500.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\samples\\error-500.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\error-500.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\samples\\login.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\samples\\login.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\login.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\samples\\register.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\samples\\register.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\samples\\register.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\tables\\basic-table.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\tables\\basic-table.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\tables\\basic-table.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\ui-features\\buttons.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\ui-features\\buttons.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\ui-features\\buttons.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\ui-features\\typography.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\pages\\ui-features\\typography.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\pages\\ui-features\\typography.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\partials\\_footer.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\partials\\_footer.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\partials\\_footer.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\partials\\_navbar.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\partials\\_navbar.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\partials\\_navbar.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\partials\\_sidebar.html",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\partials\\_sidebar.html",
       "PackagePath": "staticwebassets\\LayoutAdmin\\partials\\_sidebar.html"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\screenshot.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\LayoutAdmin\\screenshot.jpg",
       "PackagePath": "staticwebassets\\LayoutAdmin\\screenshot.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\css\\style.min.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\css\\style.min.css",
       "PackagePath": "staticwebassets\\css\\style.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\28fe4c7f-63ba-4094-b0d1-ab71789e6f0d.webp",
-      "PackagePath": "staticwebassets\\img\\28fe4c7f-63ba-4094-b0d1-ab71789e6f0d.webp"
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\3649dae3-0f3a-4774-a625-68b1ddba4266.webp",
+      "PackagePath": "staticwebassets\\img\\3649dae3-0f3a-4774-a625-68b1ddba4266.webp"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\7bb26792-db6f-48a8-99c9-1c19a9ed9b05.jpg",
-      "PackagePath": "staticwebassets\\img\\7bb26792-db6f-48a8-99c9-1c19a9ed9b05.jpg"
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\bc7b3bfc-aa03-4e6f-8f3e-5e38bf7ade39.jpg",
+      "PackagePath": "staticwebassets\\img\\bc7b3bfc-aa03-4e6f-8f3e-5e38bf7ade39.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\cat-1.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\cat-1.jpg",
       "PackagePath": "staticwebassets\\img\\cat-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\cat-2.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\cat-2.jpg",
       "PackagePath": "staticwebassets\\img\\cat-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\cat-3.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\cat-3.jpg",
       "PackagePath": "staticwebassets\\img\\cat-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\cat-4.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\cat-4.jpg",
       "PackagePath": "staticwebassets\\img\\cat-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\fde6a14e-118d-4557-afee-f6e2f1db15fe.jpg",
-      "PackagePath": "staticwebassets\\img\\fde6a14e-118d-4557-afee-f6e2f1db15fe.jpg"
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\cc9e4c39-320d-425b-a3f5-06a5e7ff7913.png",
+      "PackagePath": "staticwebassets\\img\\cc9e4c39-320d-425b-a3f5-06a5e7ff7913.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\giamGia1.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\giamGia1.jpg",
       "PackagePath": "staticwebassets\\img\\giamGia1.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\giamGia2.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\giamGia2.jpg",
       "PackagePath": "staticwebassets\\img\\giamGia2.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\icon_github.svg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\icon_github.svg",
       "PackagePath": "staticwebassets\\img\\icon_github.svg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\icon_google.ico",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\icon_google.ico",
       "PackagePath": "staticwebassets\\img\\icon_google.ico"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\logo1.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\logo1.png",
       "PackagePath": "staticwebassets\\img\\logo1.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\logo2.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\logo2.png",
       "PackagePath": "staticwebassets\\img\\logo2.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\logo3.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\logo3.png",
       "PackagePath": "staticwebassets\\img\\logo3.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\logo4.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\logo4.jpg",
       "PackagePath": "staticwebassets\\img\\logo4.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\logo5.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\logo5.jpg",
       "PackagePath": "staticwebassets\\img\\logo5.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\logo6.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\logo6.png",
       "PackagePath": "staticwebassets\\img\\logo6.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\logo7.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\logo7.jpg",
       "PackagePath": "staticwebassets\\img\\logo7.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\logo8.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\logo8.png",
       "PackagePath": "staticwebassets\\img\\logo8.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\payments.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\payments.png",
       "PackagePath": "staticwebassets\\img\\payments.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\posterGiay1.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\posterGiay1.jpg",
       "PackagePath": "staticwebassets\\img\\posterGiay1.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\posterGiay2.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\posterGiay2.jpg",
       "PackagePath": "staticwebassets\\img\\posterGiay2.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\posterGiay3.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\posterGiay3.png",
       "PackagePath": "staticwebassets\\img\\posterGiay3.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\product-1.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\product-1.jpg",
       "PackagePath": "staticwebassets\\img\\product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\product-2.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\product-2.jpg",
       "PackagePath": "staticwebassets\\img\\product-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\product-3.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\product-3.jpg",
       "PackagePath": "staticwebassets\\img\\product-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\product-4.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\product-4.jpg",
       "PackagePath": "staticwebassets\\img\\product-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\product-5.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\product-5.jpg",
       "PackagePath": "staticwebassets\\img\\product-5.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\product-6.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\product-6.jpg",
       "PackagePath": "staticwebassets\\img\\product-6.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\product-8.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\product-8.jpg",
       "PackagePath": "staticwebassets\\img\\product-8.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\product-9.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\product-9.jpg",
       "PackagePath": "staticwebassets\\img\\product-9.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\01734045-b83e-4bcf-a23c-2e958ba6072a.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\01734045-b83e-4bcf-a23c-2e958ba6072a.jpg",
       "PackagePath": "staticwebassets\\img\\products\\01734045-b83e-4bcf-a23c-2e958ba6072a.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\0358a1ed-1c7d-47f4-91e4-56673030c877.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\0358a1ed-1c7d-47f4-91e4-56673030c877.jpg",
       "PackagePath": "staticwebassets\\img\\products\\0358a1ed-1c7d-47f4-91e4-56673030c877.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\11eda703-90e7-4f02-9469-b84738242dc8.webp",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\0716844b-4d13-4105-bc8a-2c88f27d59c1.webp",
+      "PackagePath": "staticwebassets\\img\\products\\0716844b-4d13-4105-bc8a-2c88f27d59c1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\0c41cd57-1804-4ea5-a568-26d0af61ec4a.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\0c41cd57-1804-4ea5-a568-26d0af61ec4a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\11eda703-90e7-4f02-9469-b84738242dc8.webp",
       "PackagePath": "staticwebassets\\img\\products\\11eda703-90e7-4f02-9469-b84738242dc8.webp"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\25a230bf-61f4-4461-816d-74991a32427a.webp",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\25a230bf-61f4-4461-816d-74991a32427a.webp",
       "PackagePath": "staticwebassets\\img\\products\\25a230bf-61f4-4461-816d-74991a32427a.webp"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\2ed971b3-bdec-471b-b471-e58d0a4a90bf.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\2ed971b3-bdec-471b-b471-e58d0a4a90bf.jpg",
       "PackagePath": "staticwebassets\\img\\products\\2ed971b3-bdec-471b-b471-e58d0a4a90bf.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\3152659e-9a12-4637-8bfa-11a09bd52b70.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\3152659e-9a12-4637-8bfa-11a09bd52b70.jpg",
       "PackagePath": "staticwebassets\\img\\products\\3152659e-9a12-4637-8bfa-11a09bd52b70.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\31b16773-6c29-4fe7-8e55-0c66cf12efdf.webp",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\31b16773-6c29-4fe7-8e55-0c66cf12efdf.webp",
       "PackagePath": "staticwebassets\\img\\products\\31b16773-6c29-4fe7-8e55-0c66cf12efdf.webp"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\344d0590-167e-4b58-a48f-e30aa5149d2d.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\344d0590-167e-4b58-a48f-e30aa5149d2d.jpg",
       "PackagePath": "staticwebassets\\img\\products\\344d0590-167e-4b58-a48f-e30aa5149d2d.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\34f34049-c189-400b-a593-a556654f457a.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\34f34049-c189-400b-a593-a556654f457a.jpg",
       "PackagePath": "staticwebassets\\img\\products\\34f34049-c189-400b-a593-a556654f457a.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\39198a59-1297-4fc0-8c0e-faa707c732c2.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\39198a59-1297-4fc0-8c0e-faa707c732c2.jpg",
       "PackagePath": "staticwebassets\\img\\products\\39198a59-1297-4fc0-8c0e-faa707c732c2.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\480e13f5-38b8-4b8a-a1f5-97ec75a03149.webp",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\39351578-816b-46a9-8c2b-37c0e2485173.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\39351578-816b-46a9-8c2b-37c0e2485173.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\480e13f5-38b8-4b8a-a1f5-97ec75a03149.webp",
       "PackagePath": "staticwebassets\\img\\products\\480e13f5-38b8-4b8a-a1f5-97ec75a03149.webp"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\48f6309d-aa33-4025-ad39-911f7fa44c66.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\48f6309d-aa33-4025-ad39-911f7fa44c66.jpg",
       "PackagePath": "staticwebassets\\img\\products\\48f6309d-aa33-4025-ad39-911f7fa44c66.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\4b1a8584-0b56-4525-9d5e-81ac3ca93095.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\49d9c0f7-77a8-46ae-b168-075e0bb38ccc.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\49d9c0f7-77a8-46ae-b168-075e0bb38ccc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\4b1a8584-0b56-4525-9d5e-81ac3ca93095.jpg",
       "PackagePath": "staticwebassets\\img\\products\\4b1a8584-0b56-4525-9d5e-81ac3ca93095.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\4b8d163a-c130-4ef5-afeb-413bffdb9d70.webp",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\4b8d163a-c130-4ef5-afeb-413bffdb9d70.webp",
       "PackagePath": "staticwebassets\\img\\products\\4b8d163a-c130-4ef5-afeb-413bffdb9d70.webp"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\4c4cd06b-e3f3-4053-9d01-0fdfce956a4d.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\4c4cd06b-e3f3-4053-9d01-0fdfce956a4d.jpg",
       "PackagePath": "staticwebassets\\img\\products\\4c4cd06b-e3f3-4053-9d01-0fdfce956a4d.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\4dbca297-ddd7-4dc5-9c61-66a4745bcfa4.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\4dbca297-ddd7-4dc5-9c61-66a4745bcfa4.jpg",
       "PackagePath": "staticwebassets\\img\\products\\4dbca297-ddd7-4dc5-9c61-66a4745bcfa4.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\4def3cc9-43d0-47da-a2c3-42d0e177bd56.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\4def3cc9-43d0-47da-a2c3-42d0e177bd56.jpg",
       "PackagePath": "staticwebassets\\img\\products\\4def3cc9-43d0-47da-a2c3-42d0e177bd56.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\521165fd-b101-4016-a28f-a37cd406b2d8.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\521165fd-b101-4016-a28f-a37cd406b2d8.jpg",
       "PackagePath": "staticwebassets\\img\\products\\521165fd-b101-4016-a28f-a37cd406b2d8.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\5f10ae3f-7a2d-4bb6-b3eb-79cb741a55b8.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\5f10ae3f-7a2d-4bb6-b3eb-79cb741a55b8.jpg",
       "PackagePath": "staticwebassets\\img\\products\\5f10ae3f-7a2d-4bb6-b3eb-79cb741a55b8.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\5f66302a-3734-458f-9dcd-8cf6a648a58d.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\5f66302a-3734-458f-9dcd-8cf6a648a58d.jpg",
       "PackagePath": "staticwebassets\\img\\products\\5f66302a-3734-458f-9dcd-8cf6a648a58d.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\6b73e6d4-0cdf-44c7-8911-e57c4dc829bb.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\68e9a8b6-f174-4469-9d6c-2ad999566501.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\68e9a8b6-f174-4469-9d6c-2ad999566501.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\696fea38-cd5e-432b-aedf-62815d759d09.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\696fea38-cd5e-432b-aedf-62815d759d09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\6b73e6d4-0cdf-44c7-8911-e57c4dc829bb.jpg",
       "PackagePath": "staticwebassets\\img\\products\\6b73e6d4-0cdf-44c7-8911-e57c4dc829bb.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\77d107bd-850a-468f-9905-aa0b4e2ed278.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\6b7bd6bc-2b87-41c5-a039-1fc88fb67731.webp",
+      "PackagePath": "staticwebassets\\img\\products\\6b7bd6bc-2b87-41c5-a039-1fc88fb67731.webp"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\77d107bd-850a-468f-9905-aa0b4e2ed278.jpg",
       "PackagePath": "staticwebassets\\img\\products\\77d107bd-850a-468f-9905-aa0b4e2ed278.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\7b50eb0e-abb6-43fa-9848-f008f0a86e63.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\7a7a6cb2-b80b-4019-a78d-0f8db61eaf45.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\7a7a6cb2-b80b-4019-a78d-0f8db61eaf45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\7b50eb0e-abb6-43fa-9848-f008f0a86e63.jpg",
       "PackagePath": "staticwebassets\\img\\products\\7b50eb0e-abb6-43fa-9848-f008f0a86e63.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\80344476-5842-4ab4-9a6a-7c3cd0e6b415.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\80344476-5842-4ab4-9a6a-7c3cd0e6b415.jpg",
       "PackagePath": "staticwebassets\\img\\products\\80344476-5842-4ab4-9a6a-7c3cd0e6b415.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\84422311-0a16-4dd5-80ba-caf8724ca2d0.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\84422311-0a16-4dd5-80ba-caf8724ca2d0.jpg",
       "PackagePath": "staticwebassets\\img\\products\\84422311-0a16-4dd5-80ba-caf8724ca2d0.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\87b7127c-09c0-4b75-a443-33772b3b99e3.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\87b7127c-09c0-4b75-a443-33772b3b99e3.jpg",
       "PackagePath": "staticwebassets\\img\\products\\87b7127c-09c0-4b75-a443-33772b3b99e3.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\996f079c-90ad-4b2e-9f6c-0c9b6c571535.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\996f079c-90ad-4b2e-9f6c-0c9b6c571535.jpg",
       "PackagePath": "staticwebassets\\img\\products\\996f079c-90ad-4b2e-9f6c-0c9b6c571535.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\9b75213f-1383-4f6e-8213-95cab2a5a54a.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\9b75213f-1383-4f6e-8213-95cab2a5a54a.jpg",
       "PackagePath": "staticwebassets\\img\\products\\9b75213f-1383-4f6e-8213-95cab2a5a54a.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\b700bc1c-523b-4d8c-b845-7cd10892142f.webp",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\9bad9546-4f73-4f04-ae5e-62493418a14a.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\9bad9546-4f73-4f04-ae5e-62493418a14a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\a60660d9-c826-409b-8bcd-ca51b06c1b57.webp",
+      "PackagePath": "staticwebassets\\img\\products\\a60660d9-c826-409b-8bcd-ca51b06c1b57.webp"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\ac076653-78fc-4ba7-ba69-9960e3d9bfe7.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\ac076653-78fc-4ba7-ba69-9960e3d9bfe7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\b700bc1c-523b-4d8c-b845-7cd10892142f.webp",
       "PackagePath": "staticwebassets\\img\\products\\b700bc1c-523b-4d8c-b845-7cd10892142f.webp"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\c1fc4fa9-6bbe-49ab-9023-76d45c2abc5c.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\bcbcbe72-5d3b-402c-96c3-602e4b4d6161.webp",
+      "PackagePath": "staticwebassets\\img\\products\\bcbcbe72-5d3b-402c-96c3-602e4b4d6161.webp"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\c02ab444-b083-43ad-a556-253c63c26d1a.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\c02ab444-b083-43ad-a556-253c63c26d1a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\c1fc4fa9-6bbe-49ab-9023-76d45c2abc5c.jpg",
       "PackagePath": "staticwebassets\\img\\products\\c1fc4fa9-6bbe-49ab-9023-76d45c2abc5c.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\cd336682-16da-4102-97e3-e52ae0b45705.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\cd336682-16da-4102-97e3-e52ae0b45705.jpg",
       "PackagePath": "staticwebassets\\img\\products\\cd336682-16da-4102-97e3-e52ae0b45705.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\e0d0baf7-2ef7-4fe1-9099-4f6a3d2c3b38.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\d10a3384-4db6-4814-babd-c537bd9c749a.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\d10a3384-4db6-4814-babd-c537bd9c749a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\e0037b04-1623-4033-a47e-b3a66452ba08.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\e0037b04-1623-4033-a47e-b3a66452ba08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\products\\e0d0baf7-2ef7-4fe1-9099-4f6a3d2c3b38.jpg",
       "PackagePath": "staticwebassets\\img\\products\\e0d0baf7-2ef7-4fe1-9099-4f6a3d2c3b38.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\img\\user.jpg",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\img\\user.jpg",
       "PackagePath": "staticwebassets\\img\\user.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\js\\main.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\js\\Chat.js",
+      "PackagePath": "staticwebassets\\js\\Chat.js"
+    },
+    {
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\animate\\animate.min.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\animate\\animate.min.css",
       "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\easing\\easing.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\easing\\easing.min.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\owlcarousel"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\mail\\contact.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\mail\\contact.js",
       "PackagePath": "staticwebassets\\mail\\contact.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\mail\\contact.php",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\mail\\contact.php",
       "PackagePath": "staticwebassets\\mail\\contact.php"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\mail\\jqBootstrapValidation.min.js",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\mail\\jqBootstrapValidation.min.js",
       "PackagePath": "staticwebassets\\mail\\jqBootstrapValidation.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_code.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_custom-forms.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_jumbotron.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_media.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_print.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_float.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_size.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_align.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_background.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_display.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_float.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_position.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_text.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Id": "C:\\Users\\Admin\\Desktop\\DALTW\\DoAnLTW\\wwwroot\\scss\\style.scss",
+      "Id": "C:\\Users\\Dat\\source\\repos\\DALTW\\DoAnLTW\\wwwroot\\scss\\style.scss",
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {

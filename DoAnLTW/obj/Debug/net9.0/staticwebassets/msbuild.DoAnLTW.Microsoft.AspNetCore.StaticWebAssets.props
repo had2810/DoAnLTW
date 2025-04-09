@@ -162,41 +162,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\28fe4c7f-63ba-4094-b0d1-ab71789e6f0d.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\3649dae3-0f3a-4774-a625-68b1ddba4266.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>DoAnLTW</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/DoAnLTW</BasePath>
-      <RelativePath>img/28fe4c7f-63ba-4094-b0d1-ab71789e6f0d.webp</RelativePath>
+      <RelativePath>img/3649dae3-0f3a-4774-a625-68b1ddba4266.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9ljz4jf4yw</Fingerprint>
-      <Integrity>7e3GpL87PXhQSlYW1CDCMZC858ZZWJSQWk40rASsWjY=</Integrity>
+      <Fingerprint>onsq15ugur</Fingerprint>
+      <Integrity>bDeMaYP3DyqI3D80lpArqLCKAV9JFprEJiHAKtppIZM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\28fe4c7f-63ba-4094-b0d1-ab71789e6f0d.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\3649dae3-0f3a-4774-a625-68b1ddba4266.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\7bb26792-db6f-48a8-99c9-1c19a9ed9b05.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\bc7b3bfc-aa03-4e6f-8f3e-5e38bf7ade39.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>DoAnLTW</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/DoAnLTW</BasePath>
-      <RelativePath>img/7bb26792-db6f-48a8-99c9-1c19a9ed9b05.jpg</RelativePath>
+      <RelativePath>img/bc7b3bfc-aa03-4e6f-8f3e-5e38bf7ade39.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>amd40gtrgq</Fingerprint>
-      <Integrity>8u0KoubYkWlDUrlcZdhY7iVaqYjZdxRsrP1osjhbEF0=</Integrity>
+      <Fingerprint>c2grx1w6xv</Fingerprint>
+      <Integrity>FG8gqSeALTgwXV2djqtYAM3TtPKo7jO/mJ/4n9Llcco=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\7bb26792-db6f-48a8-99c9-1c19a9ed9b05.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\bc7b3bfc-aa03-4e6f-8f3e-5e38bf7ade39.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cat-1.jpg'))">
       <SourceType>Package</SourceType>
@@ -270,23 +270,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cat-4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\fde6a14e-118d-4557-afee-f6e2f1db15fe.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cc9e4c39-320d-425b-a3f5-06a5e7ff7913.png'))">
       <SourceType>Package</SourceType>
       <SourceId>DoAnLTW</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/DoAnLTW</BasePath>
-      <RelativePath>img/fde6a14e-118d-4557-afee-f6e2f1db15fe.jpg</RelativePath>
+      <RelativePath>img/cc9e4c39-320d-425b-a3f5-06a5e7ff7913.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qiltfp8i8y</Fingerprint>
-      <Integrity>MoV4K8CtTD4IEYJEElsLD8AA1wPuXgpzuwtxz70FyAM=</Integrity>
+      <Fingerprint>8lix1xzgdn</Fingerprint>
+      <Integrity>pC4zph/josTzA1w0cxU7LCXKIOOYc7ENMbVQpPBJ8zs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\fde6a14e-118d-4557-afee-f6e2f1db15fe.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\cc9e4c39-320d-425b-a3f5-06a5e7ff7913.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\giamGia1.jpg'))">
       <SourceType>Package</SourceType>
@@ -756,6 +756,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\0358a1ed-1c7d-47f4-91e4-56673030c877.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\0716844b-4d13-4105-bc8a-2c88f27d59c1.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/0716844b-4d13-4105-bc8a-2c88f27d59c1.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b0flr092fx</Fingerprint>
+      <Integrity>O0qaLEJTJeFeivEIuihHJn4VQaDmSa2HDuLPldYAME0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\0716844b-4d13-4105-bc8a-2c88f27d59c1.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\0c41cd57-1804-4ea5-a568-26d0af61ec4a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/0c41cd57-1804-4ea5-a568-26d0af61ec4a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>svtcdw81e8</Fingerprint>
+      <Integrity>SI+vyhFiEKlLOO4e0uWChql0ym0YHE3r5dObpQU/vvQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\0c41cd57-1804-4ea5-a568-26d0af61ec4a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\11eda703-90e7-4f02-9469-b84738242dc8.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>DoAnLTW</SourceId>
@@ -900,6 +936,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\39198a59-1297-4fc0-8c0e-faa707c732c2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\39351578-816b-46a9-8c2b-37c0e2485173.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/39351578-816b-46a9-8c2b-37c0e2485173.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kepdhxnj47</Fingerprint>
+      <Integrity>JDmK3zdDS+rsx4OwSZ3Q36T4+IikVTVOuYt62Fikulo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\39351578-816b-46a9-8c2b-37c0e2485173.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\480e13f5-38b8-4b8a-a1f5-97ec75a03149.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>DoAnLTW</SourceId>
@@ -935,6 +989,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\48f6309d-aa33-4025-ad39-911f7fa44c66.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\49d9c0f7-77a8-46ae-b168-075e0bb38ccc.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/49d9c0f7-77a8-46ae-b168-075e0bb38ccc.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>p6gkqfik6c</Fingerprint>
+      <Integrity>D1t1uBHSG6aCcq0pzNd1HPLb6Veg8cRlyrNFNYjc/og=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\49d9c0f7-77a8-46ae-b168-075e0bb38ccc.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\4b1a8584-0b56-4525-9d5e-81ac3ca93095.jpg'))">
       <SourceType>Package</SourceType>
@@ -1080,6 +1152,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\5f66302a-3734-458f-9dcd-8cf6a648a58d.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\68e9a8b6-f174-4469-9d6c-2ad999566501.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/68e9a8b6-f174-4469-9d6c-2ad999566501.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s643aa7ycb</Fingerprint>
+      <Integrity>9NkSK5Lgc515h7s/0iJYM1S3Do7NmOPOraZSEgXxpFg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\68e9a8b6-f174-4469-9d6c-2ad999566501.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\696fea38-cd5e-432b-aedf-62815d759d09.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/696fea38-cd5e-432b-aedf-62815d759d09.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bk03idyjl9</Fingerprint>
+      <Integrity>ZVRejikegK7bXeqDiLGEbU6kHi2qEHuNmtbL8PwJ2KI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\696fea38-cd5e-432b-aedf-62815d759d09.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\6b73e6d4-0cdf-44c7-8911-e57c4dc829bb.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>DoAnLTW</SourceId>
@@ -1098,6 +1206,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\6b73e6d4-0cdf-44c7-8911-e57c4dc829bb.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\6b7bd6bc-2b87-41c5-a039-1fc88fb67731.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/6b7bd6bc-2b87-41c5-a039-1fc88fb67731.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>emhc1rloyn</Fingerprint>
+      <Integrity>yt5tiIfbC7OgRSu3cJvwaLSTP8GhY+MbLvO8fdGK54k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\6b7bd6bc-2b87-41c5-a039-1fc88fb67731.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\77d107bd-850a-468f-9905-aa0b4e2ed278.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>DoAnLTW</SourceId>
@@ -1115,6 +1241,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\77d107bd-850a-468f-9905-aa0b4e2ed278.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\7a7a6cb2-b80b-4019-a78d-0f8db61eaf45.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/7a7a6cb2-b80b-4019-a78d-0f8db61eaf45.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ep68aeznid</Fingerprint>
+      <Integrity>DvpHrD6ZnqCuzk3p+xkA780Q7SxwlUJVnzSKdAwefwY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\7a7a6cb2-b80b-4019-a78d-0f8db61eaf45.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\7b50eb0e-abb6-43fa-9848-f008f0a86e63.jpg'))">
       <SourceType>Package</SourceType>
@@ -1224,6 +1368,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\9b75213f-1383-4f6e-8213-95cab2a5a54a.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\9bad9546-4f73-4f04-ae5e-62493418a14a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/9bad9546-4f73-4f04-ae5e-62493418a14a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hux5plkqnh</Fingerprint>
+      <Integrity>Z9jgn2jJX+jeZFdH+zXgmbq+N5Dki4GiEZ6k6QB6kw4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\9bad9546-4f73-4f04-ae5e-62493418a14a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\a60660d9-c826-409b-8bcd-ca51b06c1b57.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/a60660d9-c826-409b-8bcd-ca51b06c1b57.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ae2z4cp7pd</Fingerprint>
+      <Integrity>HoW3UpXMQF+nuFE8NR1nCGKI1Ca8bijkxeoS3XUCSGw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\a60660d9-c826-409b-8bcd-ca51b06c1b57.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\ac076653-78fc-4ba7-ba69-9960e3d9bfe7.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/ac076653-78fc-4ba7-ba69-9960e3d9bfe7.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4hh4dqmccl</Fingerprint>
+      <Integrity>eGabEBp8GoNUHkckP88t+CKl5Fw0HDllQ3jUgH1m6NQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\ac076653-78fc-4ba7-ba69-9960e3d9bfe7.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\b700bc1c-523b-4d8c-b845-7cd10892142f.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>DoAnLTW</SourceId>
@@ -1241,6 +1439,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\b700bc1c-523b-4d8c-b845-7cd10892142f.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\bcbcbe72-5d3b-402c-96c3-602e4b4d6161.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/bcbcbe72-5d3b-402c-96c3-602e4b4d6161.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j1g4tt9g17</Fingerprint>
+      <Integrity>yXR4oVL3InGuaXTRHucCPVZZFkDwnDOuGh2x6csFCD4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\bcbcbe72-5d3b-402c-96c3-602e4b4d6161.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\c02ab444-b083-43ad-a556-253c63c26d1a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/c02ab444-b083-43ad-a556-253c63c26d1a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0xt4arr00m</Fingerprint>
+      <Integrity>dLZhjxknilIzcK+yC5oEMMZuMQyqHfgGKHfPLYCc3dQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\c02ab444-b083-43ad-a556-253c63c26d1a.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\c1fc4fa9-6bbe-49ab-9023-76d45c2abc5c.jpg'))">
       <SourceType>Package</SourceType>
@@ -1278,6 +1512,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\cd336682-16da-4102-97e3-e52ae0b45705.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\d10a3384-4db6-4814-babd-c537bd9c749a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/d10a3384-4db6-4814-babd-c537bd9c749a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>txcq7vqj19</Fingerprint>
+      <Integrity>/5j07zIi0FG5Gk6QyYHvf8wBrHwpYHYqNo29MPTa+nE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\d10a3384-4db6-4814-babd-c537bd9c749a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\e0037b04-1623-4033-a47e-b3a66452ba08.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>img/products/e0037b04-1623-4033-a47e-b3a66452ba08.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1zhkp1cp6g</Fingerprint>
+      <Integrity>AwuH6DGsMenWf5W/s2ey/eNYP9olfHALDiFOfFgnJRA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\e0037b04-1623-4033-a47e-b3a66452ba08.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\products\e0d0baf7-2ef7-4fe1-9099-4f6a3d2c3b38.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>DoAnLTW</SourceId>
@@ -1313,6 +1583,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\user.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Chat.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAnLTW</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAnLTW</BasePath>
+      <RelativePath>js/Chat.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8vs902e2bg</Fingerprint>
+      <Integrity>ZKL2MUcGFGYj+fEG8Bkc9/rb/VbRh0ms3DaeobdRhDs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Chat.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))">
       <SourceType>Package</SourceType>

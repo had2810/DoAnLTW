@@ -147,6 +147,13 @@ namespace DoAnLTW.Areas.Admin.Controllers
             var category = await _categoryRepository.GetByIdAsync(id);
             if (category == null) return NotFound();
 
+            var hasProducts = await _context.Products.AnyAsync(p => p.CategoryId == id);
+            if (hasProducts)
+            {
+                TempData["ErrorMessage"] = "Không thể xóa danh mục vì còn sản phẩm liên quan.";
+                return RedirectToAction("Index");
+            }
+
             // Xóa ảnh nếu có
             if (!string.IsNullOrEmpty(category.ImageUrl))
             {
@@ -159,7 +166,9 @@ namespace DoAnLTW.Areas.Admin.Controllers
 
             await _categoryRepository.DeleteAsync(category.Id);
             TempData["SuccessMessage"] = "Xóa danh mục thành công!";
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
+       
+
     }
 }

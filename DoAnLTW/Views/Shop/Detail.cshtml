@@ -1,58 +1,309 @@
 ﻿@model DoAnLTW.Models.Product
 
 @{
-    ViewData["Title"] = "Chi tiết sản phẩm";
-    Layout = "~/Areas/Admin/Views/Shared/layoutAdmin.cshtml";
+    if (Model == null)
+    {
+        <h2 class="text-danger">Sản phẩm không tồn tại!</h2>
+        return;
+    }
 }
 
-<h2 class="text-center">Chi tiết sản phẩm</h2>
+@{
+    ViewData["Title"] = Model.Name;
+}
 
-<div class="row">
-    <div class="col-md-8 offset-md-2">
-        <div class="form-group mb-3">
-            <label class="control-label">Tên sản phẩm</label>
-            <p class="form-control-static">@Model.Name</p>
-        </div>
-
-        <div class="form-group mb-3">
-            <label class="control-label">Giá (VNĐ)</label>
-            <p class="form-control-static text-danger">@Model.Price.ToString("N0") VNĐ</p>
-        </div>
-
-        <div class="form-group mb-3">
-            <label class="control-label">Mô tả sản phẩm</label>
-            <p class="form-control-static">@Model.Description</p>
-        </div>
-
-        <div class="form-group mb-3">
-            <label class="control-label">Thương hiệu</label>
-            <p class="form-control-static">@(Model.Brand != null ? Model.Brand.Name : "Không có thông tin")</p>
-        </div>
-
-        <div class="form-group mb-3">
-            <label class="control-label">Danh mục</label>
-            <p class="form-control-static">@(Model.Category != null ? Model.Category.Name : "Không có thông tin")</p>
-        </div>
-
-        <div class="form-group mb-3">
-            <label class="control-label">Hình ảnh sản phẩm</label>
-            @if (Model.Images != null && Model.Images.Any())
-            {
-                <div>
-                    @foreach (var img in Model.Images)
+<div class="container mt-5">
+    <div class="row">
+        <!-- Hình ảnh sản phẩm -->
+        <div class="col-md-6">
+            <div id="product-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    @if (Model.Images?.Any() == true)
                     {
-                        <img src="@img.ImageUrl" alt="Ảnh sản phẩm" style="width: 80px; height: 80px; object-fit: cover; margin-right: 5px;" />
+                        int index = 0;
+                        @foreach (var image in Model.Images.Where(img => !string.IsNullOrEmpty(img.ImageUrl)))
+                        {
+                            <div class="carousel-item @(index == 0 ? "active" : "")">
+                                <img class="d-block w-100 product-image" src="@Url.Content("~/"+ image.ImageUrl)" alt="Product Image">
+                            </div>
+                            index++;
+                        }
+                    }
+                    else
+                    {
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 product-image" src="~/img/default-product.jpg" alt="No Image Available">
+                        </div>
                     }
                 </div>
-            }
-            else
-            {
-                <p>Chưa có hình ảnh</p>
-            }
+
+                @if (Model.Images?.Count(img => !string.IsNullOrEmpty(img.ImageUrl)) > 1)
+                {
+                    <a class="carousel-control-prev custom-carousel-control" href="#product-carousel" role="button" data-slide="prev">
+                        <div class="nav-button">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </div>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next custom-carousel-control" href="#product-carousel" role="button" data-slide="next">
+                        <div class="nav-button">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </div>
+                        <span class="sr-only">Next</span>
+                    </a>
+                }
+            </div>
         </div>
 
-        <div class="form-group text-center">
-            <a asp-action="Index" asp-controller="Product" asp-area="Admin" class="btn btn-secondary">Quay lại</a>
+        <!-- Thông tin sản phẩm -->
+        <div class="col-md-6">
+            <h1>@Model.Name</h1>
+            <p class="text-muted">Thương hiệu: @(Model.Brand != null ? Model.Brand.Name : "Không rõ")</p>
+
+            <h3 class="text-danger">@Model.Price.ToString("#,##0 VNĐ")</h3>
+
+            <p>@Model.Description</p>
+
+            <!-- Chọn size -->
+            <div class="form-group">
+                <label><strong>Chọn Size:</strong></label>
+                <div class="size-options">
+                    @{
+                        int totalStock = Model.ProductSizes.Sum(p => p.Stock);
+                    }
+                    <input type="radio" id="size_all" name="size" value="all" class="size-radio" checked data-stock="@totalStock">
+                    <label for="size_all" class="size-label">Tất cả</label>
+
+                    @foreach (var ps in Model.ProductSizes.DistinctBy(p => p.Size.size))
+                    {
+                        <input type="radio" id="size_@ps.Size.size" name="size" value="@ps.Size.size" data-stock="@ps.Stock" class="size-radio">
+                        <label for="size_@ps.Size.size" class="size-label">Size @ps.Size.size</label>
+                    }
+                </div>
+            </div>
+
+            <p id="stockQuantity" class="text-success"><strong>Số lượng có sẵn: </strong> <span id="availableStock"></span></p>
+
+            <!-- Chọn số lượng -->
+            <div class="form-group">
+                <label for="quantityInput"><strong>Số lượng:</strong></label>
+                <div class="input-group justify-content-center quantity-box">
+                    <button class="btn btn-black" type="button" onclick="changeQuantity(-1)">−</button>
+                    <input type="number" id="quantityInput" class="form-control text-center mx-2 small-input" value="1" min="1">
+                    <button class="btn btn-black" type="button" onclick="changeQuantity(1)">+</button>
+                </div>
+            </div>
+            <input type="hidden" id="productId" value="@Model.Id" />
+
+            <button class="btn btn-primary mt-3" onclick="addToCart()">Thêm vào giỏ hàng</button>
         </div>
     </div>
 </div>
+
+<script>
+
+
+
+
+    // thêm giỏ hàng
+     function addToCart() {
+        var productId = document.getElementById("productId").value;
+        var selectedSize = document.querySelector('input[name="size"]:checked');
+        var size = selectedSize ? selectedSize.value : "";
+        var quantity = document.getElementById("quantityInput").value;
+
+        if (!size || size === "all") {
+            alert("Vui lòng chọn size trước khi thêm vào giỏ hàng!");
+            return;
+        }
+
+        fetch('/Cart/AddToCart?productId=' + productId + '&size=' + size + '&quantity=' + quantity, {
+            method: 'GET'
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Cập nhật số lượng trên icon giỏ hàng
+                document.querySelectorAll('.fa-shopping-cart').forEach(icon => {
+                    const badge = icon.nextElementSibling;
+                    if (badge) {
+                        badge.textContent = data.count;
+                    }
+                });
+                alert("Sản phẩm đã được thêm vào giỏ hàng!");
+            } else {
+                alert(data.message);
+            }
+        })
+        .catch(error => {
+            console.error('Lỗi:', error);
+            alert("Lỗi! Không thể thêm vào giỏ hàng: " + error.message);
+        });
+    }
+
+
+
+     document.querySelectorAll('.size-radio').forEach(radio => {
+        radio.addEventListener('change', function () {
+            let stock = this.getAttribute("data-stock") || "0";
+            document.getElementById("availableStock").innerText = stock;
+            document.getElementById("quantityInput").value = 1;
+
+            let isAllSelected = this.value === "all"; // Kiểm tra nếu chọn "Tất cả"
+            let quantityInput = document.getElementById("quantityInput");
+            let minusButton = document.querySelector(".btn-black:first-child");
+            let plusButton = document.querySelector(".btn-black:last-child");
+            let addToCartButton = document.querySelector(".btn-primary");
+
+            if (isAllSelected) {
+                quantityInput.disabled = true;
+                minusButton.disabled = true;
+                plusButton.disabled = true;
+                addToCartButton.disabled = true;
+                addToCartButton.style.opacity = "0.5";
+            } else {
+                quantityInput.disabled = false;
+                minusButton.disabled = false;
+                plusButton.disabled = false;
+                addToCartButton.disabled = false;
+                addToCartButton.style.opacity = "1";
+            }
+        });
+    });
+
+
+
+    // Đảm bảo trạng thái ban đầu khi tải trang
+    document.addEventListener("DOMContentLoaded", function () {
+        let firstSize = document.querySelector('.size-radio:checked');
+        if (firstSize) {
+            let stock = firstSize.getAttribute("data-stock") || "0";
+            document.getElementById("availableStock").innerText = stock;
+
+            let isAllSelected = firstSize.value === "all";
+            let quantityInput = document.getElementById("quantityInput");
+            let minusButton = document.querySelector(".btn-black:first-child");
+            let plusButton = document.querySelector(".btn-black:last-child");
+            let addToCartButton = document.querySelector(".btn-primary");
+
+            if (isAllSelected) {
+                quantityInput.disabled = true;
+                minusButton.disabled = true;
+                plusButton.disabled = true;
+                addToCartButton.disabled = true;
+                addToCartButton.style.opacity = "0.5";
+            }
+        }
+    });
+
+
+    function changeQuantity(amount) {
+        let quantityInput = document.getElementById("quantityInput");
+        let stockQuantity = parseInt(document.getElementById("availableStock").innerText || "0");
+
+        let currentQuantity = parseInt(quantityInput.value) || 1;
+        let newQuantity = currentQuantity + amount;
+
+        if (newQuantity < 1) {
+            newQuantity = 1;
+        } else if (newQuantity > stockQuantity) {
+            newQuantity = stockQuantity;
+        }
+
+        quantityInput.value = newQuantity;
+    }
+
+    document.getElementById("quantityInput").addEventListener("input", function () {
+        let stockQuantity = parseInt(document.getElementById("availableStock").innerText || "0");
+        let inputValue = parseInt(this.value) || 1;
+
+        if (inputValue < 1) {
+            this.value = 1;
+        } else if (inputValue > stockQuantity) {
+            this.value = stockQuantity;
+        }
+    });
+</script>
+
+<style>
+    .quantity-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .small-input {
+        width: 50px;
+        height: 35px;
+        text-align: center;
+        font-size: 16px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .btn-black {
+        background-color: black !important;
+        color: white !important;
+        border: none;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 5px;
+    }
+
+        .btn-black:hover {
+            background-color: #333 !important;
+        }
+
+    .size-options {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .size-radio {
+        display: none;
+    }
+
+    .size-label {
+        padding: 10px 15px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        background-color: #fff;
+        transition: all 0.3s ease;
+    }
+
+    .size-radio:checked + .size-label {
+        background-color: black;
+        color: white;
+        border-color: black;
+    }
+
+    .custom-carousel-control .nav-button {
+        background-color: black;
+        padding: 12px;
+        border-radius: 50%;
+        transition: 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
+    }
+
+        .custom-carousel-control .nav-button:hover {
+            background-color: #444;
+        }
+
+    .btn-black:disabled, .btn-primary:disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+</style>

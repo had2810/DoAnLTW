@@ -17,7 +17,10 @@ namespace DoAnLTW.Models
         public DbSet<Size> Sizes { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<ProductSize> ProductSizes { get; set; }
+        public DbSet<Order> Orders { get; set; } // Thêm bảng Orders
+        public DbSet<OrderDetail> OrderDetails { get; set; } // Thêm bảng OrderDetails
 
+     
     }
 }
 
